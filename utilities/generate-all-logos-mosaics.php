@@ -76,14 +76,17 @@ function createMDFiles(array $logos, string $source): void
         for ($j = 0; $j < count($matrix); $j++) {
             for ($i = 0; $i < $settings['cols']; $i++) {
 
-                // CORREÇÃO: remover "space"
+                // sem "space"
                 $logo = $matrix[$j][$i] ?? "";
 
-                // célula com ou sem imagem
                 $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">';
 
                 if ($logo !== "") {
-                    $table .= '<img src="' . $logo . '.png" width="120">';
+                    // imagem
+                    $table .= '<img src="' . $logo . '.png" width="120"><br>';
+
+                    // nome do logo em fonte consola
+                    $table .= '<code>' . $logo . '</code>';
                 }
 
                 $table .= '</div> ';
