@@ -44,7 +44,7 @@ function organizeContent(array $logos, string $source): array
         $filename = basename($file);
         $ext = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
 
-        if (in_array($ext, ['png'])) {
+        if ($ext === 'png') {
             $key = preg_replace('/\.png$/i', '', $filename);
             $output['logos'][$key] = $filename;
         }
@@ -75,11 +75,25 @@ function createMDFiles(array $logos, string $source): void
 
         for ($j = 0; $j < count($matrix); $j++) {
             for ($i = 0; $i < $settings['cols']; $i++) {
-                $logo = $matrix[$j][$i] ?? "space";
 
-                $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">'
-                        . '<img src="' . $logo . '.png" width="120">'
-                        . '</div> ';
+                $logo = $matrix[$j][$i] ?? null;
+
+                if ($logo) {
+                    // célula com logo
+                    $cell = '<div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="' . $logo . '.png" width="120">
+                    </div>';
+                } else {
+                    // célula vazia sem imagem
+                    $cell = '<div style="padding:10px;"></div>';
+                }
+
+                $table .= '| ' . $cell . ' ';
 
                 if ($i === $settings['cols'] - 1) {
                     $table .= "|\n";
