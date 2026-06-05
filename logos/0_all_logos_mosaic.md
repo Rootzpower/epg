@@ -1,148 +1,28 @@
-# Portugal 🇵🇹
+# Logos
 
-| ![24-kitchen-hd] | ![24-kitchen] | ![a-bola-tv] | ![afro-music-channel] | ![amc-hd] | ![amc] |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="24-kitchen-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="Afro-Music.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="BabyTV.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="Cartoonito.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="Euronews.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="Eurosport2.png" width="120"></div> |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| ![axn-hd] | ![axn-movies-hd] | ![axn-movies] | ![axn] | ![axn-white-hd] | ![axn-white] |
-| ![biggs] | ![btv-hd] | ![btv] | ![caca-e-pesca] | ![cacavision] | ![canal-hollywood-hd] |
-| ![canal-hollywood] | ![canal-panda] | ![canal-q] | ![canal-s-mais] | ![canal11] | ![cbs-reality] |
-| ![cine-mundo-hd] | ![cine-mundo] | ![cmtv] | ![cnn-portugal] | ![docubox-hd] | ![docubox] |
-| ![eleven-sports-1-icon] | ![eleven-sports-1] | ![eleven-sports-2-icon] | ![eleven-sports-2] | ![eleven-sports-3-icon] | ![eleven-sports-3] |
-| ![eleven-sports-4-icon] | ![eleven-sports-4] | ![eleven-sports-5-icon] | ![eleven-sports-5] | ![eleven-sports-6-icon] | ![eleven-sports-6] |
-| ![eleven-sports-icon] | ![eleven-sports] | ![fight-box-hd] | ![fight-box] | ![fight-network] | ![fox-comedy-hd] |
-| ![fox-comedy] | ![fox-crime-hd] | ![fox-crime] | ![fox-life-hd] | ![fox-life] | ![fox-movies-hd] |
-| ![fox-movies] | ![fueltv-hd] | ![fueltv] | ![globo-internacional] | ![localvisao-tv] | ![nba-tv] |
-| ![news-now] | ![news-now-white] | ![nos-studios] | ![odisseia-hd] | ![odisseia] | ![pfc] |
-| ![porto-canal-hd] | ![porto-canal] | ![rtp-1-hd] | ![rtp-1] | ![rtp-2-hd] | ![rtp-2] |
-| ![rtp-acores] | ![rtp-africa] | ![rtp-madeira] | ![rtp-memoria] | ![rtp-noticias] | ![sic-caras-hd] |
-| ![sic-caras] | ![sic-hd] | ![sic-k-hd] | ![sic-k] | ![sic-mulher] | ![sic-noticias] |
-| ![sic] | ![sic-radical-hd] | ![sic-radical] | ![sport-tv-1] | ![sport-tv-2] | ![sport-tv-3] |
-| ![sport-tv-4] | ![sport-tv-5] | ![sport-tv-6] | ![sport-tv-mais] | ![sporting-tv-hd] | ![sporting-tv] |
-| ![star-channel] | ![star-comedy] | ![star-crime] | ![star-life] | ![star-movies] | ![toros-tv] |
-| ![trace-toca] | ![tvcine-action-hd] | ![tvcine-action] | ![tvcine-edition-hd] | ![tvcine-edition] | ![tvcine-emotion-hd] |
-| ![tvcine-emotion] | ![tvcine-top-hd] | ![tvcine-top] | ![tvi-24-hd] | ![tvi-24] | ![tvi-hd] |
-| ![tvi-internacional] | ![tvi] | ![tvi-reality-hd] | ![tvi-reality] | ![v+tvi] | ![space] |
-| ![space] | ![space] | ![space] | ![space] | ![space] | ![space] |
-
-
-[24-kitchen-hd]:24-kitchen-hd-pt.png
-[24-kitchen]:24-kitchen-pt.png
-[a-bola-tv]:a-bola-tv-pt.png
-[afro-music-channel]:afro-music-channel-pt.png
-[amc-hd]:amc-hd-pt.png
-[amc]:amc-pt.png
-[axn-hd]:axn-hd-pt.png
-[axn-movies-hd]:axn-movies-hd-pt.png
-[axn-movies]:axn-movies-pt.png
-[axn]:axn-pt.png
-[axn-white-hd]:axn-white-hd-pt.png
-[axn-white]:axn-white-pt.png
-[biggs]:biggs-pt.png
-[btv-hd]:btv-hd-pt.png
-[btv]:btv-pt.png
-[caca-e-pesca]:caca-e-pesca-pt.png
-[cacavision]:cacavision-pt.png
-[canal-hollywood-hd]:canal-hollywood-hd-pt.png
-[canal-hollywood]:canal-hollywood-pt.png
-[canal-panda]:canal-panda-pt.png
-[canal-q]:canal-q-pt.png
-[canal-s-mais]:canal-s-mais-pt.png
-[canal11]:canal11-pt.png
-[cbs-reality]:cbs-reality-pt.png
-[cine-mundo-hd]:cine-mundo-hd-pt.png
-[cine-mundo]:cine-mundo-pt.png
-[cmtv]:cmtv-pt.png
-[cnn-portugal]:cnn-portugal-pt.png
-[docubox-hd]:docubox-hd-pt.png
-[docubox]:docubox-pt.png
-[eleven-sports-1-icon]:eleven-sports-1-icon-pt.png
-[eleven-sports-1]:eleven-sports-1-pt.png
-[eleven-sports-2-icon]:eleven-sports-2-icon-pt.png
-[eleven-sports-2]:eleven-sports-2-pt.png
-[eleven-sports-3-icon]:eleven-sports-3-icon-pt.png
-[eleven-sports-3]:eleven-sports-3-pt.png
-[eleven-sports-4-icon]:eleven-sports-4-icon-pt.png
-[eleven-sports-4]:eleven-sports-4-pt.png
-[eleven-sports-5-icon]:eleven-sports-5-icon-pt.png
-[eleven-sports-5]:eleven-sports-5-pt.png
-[eleven-sports-6-icon]:eleven-sports-6-icon-pt.png
-[eleven-sports-6]:eleven-sports-6-pt.png
-[eleven-sports-icon]:eleven-sports-icon-pt.png
-[eleven-sports]:eleven-sports-pt.png
-[fight-box-hd]:fight-box-hd-pt.png
-[fight-box]:fight-box-pt.png
-[fight-network]:fight-network-pt.png
-[fox-comedy-hd]:fox-comedy-hd-pt.png
-[fox-comedy]:fox-comedy-pt.png
-[fox-crime-hd]:fox-crime-hd-pt.png
-[fox-crime]:fox-crime-pt.png
-[fox-life-hd]:fox-life-hd-pt.png
-[fox-life]:fox-life-pt.png
-[fox-movies-hd]:fox-movies-hd-pt.png
-[fox-movies]:fox-movies-pt.png
-[fueltv-hd]:fueltv-hd-pt.png
-[fueltv]:fueltv-pt.png
-[globo-internacional]:globo-internacional-pt.png
-[localvisao-tv]:localvisao-tv-pt.png
-[nba-tv]:nba-tv-pt.png
-[news-now]:news-now-pt.png
-[news-now-white]:news-now-white-pt.png
-[nos-studios]:nos-studios-pt.png
-[odisseia-hd]:odisseia-hd-pt.png
-[odisseia]:odisseia-pt.png
-[pfc]:pfc-pt.png
-[porto-canal-hd]:porto-canal-hd-pt.png
-[porto-canal]:porto-canal-pt.png
-[rtp-1-hd]:rtp-1-hd-pt.png
-[rtp-1]:rtp-1-pt.png
-[rtp-2-hd]:rtp-2-hd-pt.png
-[rtp-2]:rtp-2-pt.png
-[rtp-acores]:rtp-acores-pt.png
-[rtp-africa]:rtp-africa-pt.png
-[rtp-madeira]:rtp-madeira-pt.png
-[rtp-memoria]:rtp-memoria-pt.png
-[rtp-noticias]:rtp-noticias-pt.png
-[sic-caras-hd]:sic-caras-hd-pt.png
-[sic-caras]:sic-caras-pt.png
-[sic-hd]:sic-hd-pt.png
-[sic-k-hd]:sic-k-hd-pt.png
-[sic-k]:sic-k-pt.png
-[sic-mulher]:sic-mulher-pt.png
-[sic-noticias]:sic-noticias-pt.png
-[sic]:sic-pt.png
-[sic-radical-hd]:sic-radical-hd-pt.png
-[sic-radical]:sic-radical-pt.png
-[sport-tv-1]:sport-tv-1-pt.png
-[sport-tv-2]:sport-tv-2-pt.png
-[sport-tv-3]:sport-tv-3-pt.png
-[sport-tv-4]:sport-tv-4-pt.png
-[sport-tv-5]:sport-tv-5-pt.png
-[sport-tv-6]:sport-tv-6-pt.png
-[sport-tv-mais]:sport-tv-mais-pt.png
-[sporting-tv-hd]:sporting-tv-hd-pt.png
-[sporting-tv]:sporting-tv-pt.png
-[star-channel]:star-channel-pt.png
-[star-comedy]:star-comedy-pt.png
-[star-crime]:star-crime-pt.png
-[star-life]:star-life-pt.png
-[star-movies]:star-movies-pt.png
-[toros-tv]:toros-tv-pt.png
-[trace-toca]:trace-toca-pt.png
-[tvcine-action-hd]:tvcine-action-hd-pt.png
-[tvcine-action]:tvcine-action-pt.png
-[tvcine-edition-hd]:tvcine-edition-hd-pt.png
-[tvcine-edition]:tvcine-edition-pt.png
-[tvcine-emotion-hd]:tvcine-emotion-hd-pt.png
-[tvcine-emotion]:tvcine-emotion-pt.png
-[tvcine-top-hd]:tvcine-top-hd-pt.png
-[tvcine-top]:tvcine-top-pt.png
-[tvi-24-hd]:tvi-24-hd-pt.png
-[tvi-24]:tvi-24-pt.png
-[tvi-hd]:tvi-hd-pt.png
-[tvi-internacional]:tvi-internacional-pt.png
-[tvi]:tvi-pt.png
-[tvi-reality-hd]:tvi-reality-hd-pt.png
-[tvi-reality]:tvi-reality-pt.png
-[v+tvi]:v+tvi-pt.png
-
-[space]:../../misc/space-1500.png "Space"
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="FIFAPlus.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="Gametoon.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="Globo.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="MTV.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="Mezzo.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="Nickelodeon.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="SyFy.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="TLC.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="a-bola-tv-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="amc-break-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="amc-crime-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="amc-pt.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="axn-movies-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="axn-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="axn-white-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="benfica.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="biggs-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="bloomberg-television-us.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="caca-e-pesca-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="cacavision-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="canal-hollywood-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="canal-panda-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="canal-q-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="canal-s-mais-pt.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="canal11-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="canalhistoria.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="cancaonova.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="cartoonnetwork.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="casaecozinha.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="cbs-reality-pt.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="cine-mundo-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="cmtv-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="cnn-portugal-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="combate.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="dazn1.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="dazn2.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="dazn3.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="dazn4.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="dazn5.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="dazn6.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="discoverychannel.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="disneychannel.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="disneyjunior.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="docubox-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="dogtv.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="eentertainement.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="eltorotv.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="eurosport1.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="fashiontv.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="fight-box-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="fight-network-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="foodnetwork.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="fptv.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="fueltv-pt.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="globo-internacional-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="globonews.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="hgtv.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="iconcerts.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="investigationdiscovery.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="kuriakostv.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="localvisao-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="mcmpop.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="motorvision.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="natgeographic.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="natgeowild.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="nba-tv-pt.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="news-now-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="news-now-white-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="nickjr.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="nos-studios-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="odisseia-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="pfc-pt.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="porto-canal-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="protv.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="rtp-acores-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="rtp-africa-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="rtp-madeira-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="rtp-memoria-pt.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="rtp-mundo-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="rtp-noticias-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="rtp1-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="rtp2-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sic-caras-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sic-internacional-pt.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sic-mulher-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sic-noticias-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sic-novelas-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sic-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sic-radical-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sick-pt.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sport-tv-1-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sport-tv-2-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sport-tv-3-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sport-tv-4-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sport-tv-5-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sport-tv-6-pt.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sportingtv-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sporttv+-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sporttv1-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sporttv2-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sporttv3-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sporttv4-pt.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sporttv5-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sporttv6-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sporttv7-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sportv-br.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="star-channel-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="star-comedy-pt.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="star-crime-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="star-life-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="star-movies-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tcv.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="the-travel-channel.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="toros-tv-pt.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tpa.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tpai.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="trace-toca-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="trace-toca.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="trace-urban.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvcine-action-hd-pt.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvcine-action-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvcine-edition-hd-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvcine-edition-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvcine-emotion-hd-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvcine-emotion-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvcine-top-hd-pt.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvcine-top-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvgalicia.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvi-internacional-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvi-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvi-reality-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvrecord.png" width="120"></div> |
+| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="v+tvi-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="vintv-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="zapviva.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="space.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="space.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="space.png" width="120"></div> |
 
