@@ -44,7 +44,7 @@ function organizeContent(array $logos, string $source): array
         $filename = basename($file);
         $ext = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
 
-        if ($ext === 'png') {
+        if (in_array($ext, ['png'])) {
             $key = preg_replace('/\.png$/i', '', $filename);
             $output['logos'][$key] = $filename;
         }
@@ -74,33 +74,32 @@ function createMDFiles(array $logos, string $source): void
         }
 
         for ($j = 0; $j < count($matrix); $j++) {
-
             for ($i = 0; $i < $settings['cols']; $i++) {
 
-                $logo = $matrix[$j][$i] ?? null;
+                // CORREÇÃO: remover "space"
+                $logo = $matrix[$j][$i] ?? "";
 
-                if ($logo) {
-                    // célula com logo
-                    $cell = '<div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">
-                                <img src="' . $logo . '.png" width="120">
-                             </div>';
-                } else {
-                    // célula vazia (sem imagem e sem tentar carregar space.png)
-                    $cell = '<div style="padding:10px;"></div>';
+                // célula com ou sem imagem
+                $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">';
+
+                if ($logo !== "") {
+                    $table .= '<img src="' . $logo . '.png" width="120">';
                 }
 
-                $table .= '| ' . $cell . ' ';
+                $table .= '</div> ';
+
+                if ($i === $settings['cols'] - 1) {
+                    $table .= "|\n";
+                }
             }
 
-            // fechar a linha da tabela
-            $table .= "|\n";
-
-            // header da tabela (apenas na primeira linha)
             if ($j === 0) {
                 for ($i = 0; $i < $settings['cols']; $i++) {
                     $table .= "|:---:";
+                    if ($i === $settings['cols'] - 1) {
+                        $table .= "|\n";
+                    }
                 }
-                $table .= "|\n";
             }
         }
 
