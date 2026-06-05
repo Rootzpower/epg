@@ -1,28 +1,1001 @@
 # Logos
 
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="24-kitchen-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="Afro-Music.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="BabyTV.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="Cartoonito.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="Euronews.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="Eurosport2.png" width="120"></div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="24-kitchen-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="Afro-Music.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="BabyTV.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="Cartoonito.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="Euronews.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="Eurosport2.png" width="120">
+                    </div> |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="FIFAPlus.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="Gametoon.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="Globo.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="MTV.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="Mezzo.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="Nickelodeon.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="TLC.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="a-bola-tv-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="amc-break-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="amc-crime-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="amc-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="axn-movies-pt.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="axn-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="axn-white-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="benfica.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="biggs-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="bloomberg-television-us.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="caca-e-pesca-pt.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="cacavision-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="canal-hollywood-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="canal-panda-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="canal-q-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="canal-s-mais-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="canal11-pt.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="canalhistoria.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="cancaonova.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="cartoonnetwork.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="casaecozinha.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="cbs-reality-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="cine-mundo-pt.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="cmtv-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="cnn-portugal-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="combate.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="dazn1.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="dazn2.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="dazn3.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="dazn4.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="dazn5.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="dazn6.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="discoverychannel.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="disneychannel.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="disneyjunior.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="docubox-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="dogtv.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="eentertainement.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="eltorotv.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="eurosport1.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="fashiontv.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="fight-box-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="fight-network-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="foodnetwork.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="fptv.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="fueltv-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="globo-internacional-pt.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="globonews.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="hgtv.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="iconcerts.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="investigationdiscovery.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="kuriakostv.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="localvisao-pt.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="mcmpop.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="motorvision.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="natgeographic.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="natgeowild.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="nba-tv-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="news-now-pt.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="news-now-white-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="nickjr.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="nos-studios-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="odisseia-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="pfc-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="porto-canal-pt.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="protv.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="rtp-acores-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="rtp-africa-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="rtp-madeira-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="rtp-memoria-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="rtp-mundo-pt.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="rtp-noticias-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="rtp1-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="rtp2-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sic-alta-definicao-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sic-caras-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sic-internacional-pt.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sic-mulher-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sic-noticias-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sic-novelas-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sic-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sic-radical-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sic-replay-pt.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sick-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sport-tv-1-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sport-tv-2-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sport-tv-3-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sport-tv-4-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sport-tv-5-pt.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sport-tv-6-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sportingtv-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sporttv+-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sporttv1-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sporttv2-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sporttv3-pt.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sporttv4-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sporttv5-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sporttv6-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sporttv7-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="sportv-br.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="star-channel-pt.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="star-comedy-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="star-crime-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="star-life-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="star-movies-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="syfy.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tcv.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="the-travel-channel.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="toros-tv-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tpa.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tpai.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="trace-toca-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="trace-toca.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="trace-urban.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvcine-action-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvcine-edition-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvcine-emotion-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvcine-top-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvgalicia.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvi-internacional-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvi-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvi-reality-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="tvrecord.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="v+tvi-pt.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="vintv-pt.png" width="120"></div> |
-| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="zapviva.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="space.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="space.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="space.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="space.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="space.png" width="120"></div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="FIFAPlus.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="Gametoon.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="Globo.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="MTV.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="Mezzo.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="Nickelodeon.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="TLC.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="a-bola-tv-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="amc-break-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="amc-crime-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="amc-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="axn-movies-pt.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="axn-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="axn-white-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="benfica.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="biggs-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="bloomberg-television-us.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="caca-e-pesca-pt.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="cacavision-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="canal-hollywood-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="canal-panda-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="canal-q-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="canal-s-mais-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="canal11-pt.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="canalhistoria.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="cancaonova.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="cartoonnetwork.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="casaecozinha.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="cbs-reality-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="cine-mundo-pt.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="cmtv-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="cnn-portugal-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="combate.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="dazn1.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="dazn2.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="dazn3.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="dazn4.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="dazn5.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="dazn6.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="discoverychannel.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="disneychannel.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="disneyjunior.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="docubox-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="dogtv.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="eentertainement.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="eltorotv.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="eurosport1.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="fashiontv.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="fight-box-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="fight-network-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="foodnetwork.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="fptv.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="fueltv-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="globo-internacional-pt.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="globonews.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="hgtv.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="iconcerts.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="investigationdiscovery.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="kuriakostv.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="localvisao-pt.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="mcmpop.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="motorvision.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="natgeographic.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="natgeowild.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="nba-tv-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="news-now-pt.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="news-now-white-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="nickjr.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="nos-studios-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="odisseia-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="pfc-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="porto-canal-pt.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="protv.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="rtp-acores-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="rtp-africa-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="rtp-madeira-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="rtp-memoria-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="rtp-mundo-pt.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="rtp-noticias-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="rtp1-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="rtp2-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sic-alta-definicao-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sic-caras-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sic-internacional-pt.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sic-mulher-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sic-noticias-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sic-novelas-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sic-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sic-radical-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sic-replay-pt.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sick-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sport-tv-1-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sport-tv-2-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sport-tv-3-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sport-tv-4-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sport-tv-5-pt.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sport-tv-6-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sportingtv-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sporttv+-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sporttv1-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sporttv2-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sporttv3-pt.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sporttv4-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sporttv5-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sporttv6-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sporttv7-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="sportv-br.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="star-channel-pt.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="star-comedy-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="star-crime-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="star-life-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="star-movies-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="syfy.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="tcv.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="the-travel-channel.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="toros-tv-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="tpa.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="tpai.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="trace-toca-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="trace-toca.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="trace-urban.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="tvcine-action-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="tvcine-edition-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="tvcine-emotion-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="tvcine-top-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="tvgalicia.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="tvi-internacional-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="tvi-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="tvi-reality-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="tvrecord.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="v+tvi-pt.png" width="120">
+                    </div> | <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="vintv-pt.png" width="120">
+                    </div> |
+| <div align="center" style="
+                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
+                        background-size: 20px 20px;
+                        padding:10px;
+                        border-radius:8px;
+                    ">
+                        <img src="zapviva.png" width="120">
+                    </div> | <div style="padding:10px;"></div> | <div style="padding:10px;"></div> | <div style="padding:10px;"></div> | <div style="padding:10px;"></div> | <div style="padding:10px;"></div> |
 
