@@ -1,0 +1,37 @@
+# Based on the original M3UPT project by LITUATUI.
+# See: https://github.com/LITUATUI/M3UPT
+
+name: Update EPG
+on:
+  schedule:
+    - cron: "30 0 */2 * *"
+  workflow_dispatch:
+  
+jobs:
+  Update-EPG:
+    runs-on: ubuntu-latest
+    steps:
+    
+      - name: checkout
+        uses: actions/checkout@v5
+        
+      - name: checkout iptv-org/epg repo
+        uses: actions/checkout@v5
+        with:
+         repository: iptv-org/epg
+         path: iptv-org-epg
+
+      - name: update EPG
+        run: sh epg/epg.sh
+
+      - name: setup git config
+        run: |
+          git config user.name "🤖 R2-D2"
+          git config user.email "r2d2@rebel-alliance.com"
+
+      - name: commit
+        run: |
+          git pull
+          cd epg && git add .
+          git commit -m "Update EPG"
+          git push origin main
