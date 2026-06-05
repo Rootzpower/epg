@@ -74,39 +74,33 @@ function createMDFiles(array $logos, string $source): void
         }
 
         for ($j = 0; $j < count($matrix); $j++) {
+
             for ($i = 0; $i < $settings['cols']; $i++) {
 
                 $logo = $matrix[$j][$i] ?? null;
 
                 if ($logo) {
                     // célula com logo
-                    $cell = '<div align="center" style="
-                        background: repeating-conic-gradient(#e6e6e6 0% 25%, #ffffff 0% 50%);
-                        background-size: 20px 20px;
-                        padding:10px;
-                        border-radius:8px;
-                    ">
-                        <img src="' . $logo . '.png" width="120">
-                    </div>';
+                    $cell = '<div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">
+                                <img src="' . $logo . '.png" width="120">
+                             </div>';
                 } else {
-                    // célula vazia sem imagem
+                    // célula vazia (sem imagem e sem tentar carregar space.png)
                     $cell = '<div style="padding:10px;"></div>';
                 }
 
                 $table .= '| ' . $cell . ' ';
-
-                if ($i === $settings['cols'] - 1) {
-                    $table .= "|\n";
-                }
             }
 
+            // fechar a linha da tabela
+            $table .= "|\n";
+
+            // header da tabela (apenas na primeira linha)
             if ($j === 0) {
                 for ($i = 0; $i < $settings['cols']; $i++) {
                     $table .= "|:---:";
-                    if ($i === $settings['cols'] - 1) {
-                        $table .= "|\n";
-                    }
                 }
+                $table .= "|\n";
             }
         }
 
