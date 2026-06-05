@@ -44,7 +44,7 @@ function organizeContent(array $logos, string $source): array
         $filename = basename($file);
         $ext = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
 
-        if (in_array($ext, ['png'])) {
+        if ($ext === 'png') {
             $key = preg_replace('/\.png$/i', '', $filename);
             $output['logos'][$key] = $filename;
         }
@@ -74,36 +74,35 @@ function createMDFiles(array $logos, string $source): void
         }
 
         for ($j = 0; $j < count($matrix); $j++) {
-            for ($i = 0; $i < $settings['cols']; $i++) {
 
-                // sem "space"
+            // 1️⃣ Linha das imagens
+            for ($i = 0; $i < $settings['cols']; $i++) {
                 $logo = $matrix[$j][$i] ?? "";
 
                 $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">';
 
                 if ($logo !== "") {
-                    // imagem
-                    $table .= '<img src="' . $logo . '.png" width="120"><br>';
-
-                    // nome do logo em fonte consola
-                    $table .= '<code>' . $logo . '</code>';
+                    $table .= '<img src="' . $logo . '.png" width="120">';
                 }
 
                 $table .= '</div> ';
-
-                if ($i === $settings['cols'] - 1) {
-                    $table .= "|\n";
-                }
             }
+            $table .= "|\n";
 
+            // Header da tabela (só na primeira linha)
             if ($j === 0) {
                 for ($i = 0; $i < $settings['cols']; $i++) {
                     $table .= "|:---:";
-                    if ($i === $settings['cols'] - 1) {
-                        $table .= "|\n";
-                    }
                 }
+                $table .= "|\n";
             }
+
+            // 2️⃣ Linha dos nomes (em bold)
+            for ($i = 0; $i < $settings['cols']; $i++) {
+                $logo = $matrix[$j][$i] ?? "";
+                $table .= '| <div align="center"><strong>' . ($logo !== "" ? $logo : '') . '</strong></div> ';
+            }
+            $table .= "|\n";
         }
 
         $outputContent .= "$table\n";
