@@ -1,29 +1,52 @@
 # Logos
 
 | ![24-kitchen] | ![a-bola-tv] | ![afro-music] | ![amc-break] | ![amc-crime] | ![amc] |
+| 24-kitchen | a-bola-tv | afro-music | amc-break | amc-crime | amc |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | ![axn-movies] | ![axn] | ![axn-white] | ![babytv] | ![benfica] | ![bloomberg-television] |
+| axn-movies | axn | axn-white | babytv | benfica | bloomberg-television |
 | ![caca-e-pesca] | ![cacavision] | ![canal-historia-withe] | ![canal-hollywood] | ![canal-panda] | ![canal-q] |
+| caca-e-pesca | cacavision | canal-historia-withe | canal-hollywood | canal-panda | canal-q |
 | ![canal-s-mais] | ![canal11] | ![canalhistoria] | ![cancaonova] | ![cartoonito] | ![cartoonnetwork] |
+| canal-s-mais | canal11 | canalhistoria | cancaonova | cartoonito | cartoonnetwork |
 | ![casaecozinha] | ![cazavision] | ![cbs-reality] | ![cine-mundo] | ![cmtv] | ![cnn-portugal] |
+| casaecozinha | cazavision | cbs-reality | cine-mundo | cmtv | cnn-portugal |
 | ![combate] | ![dazn1] | ![dazn2] | ![dazn3] | ![dazn4] | ![dazn5] |
+| combate | dazn1 | dazn2 | dazn3 | dazn4 | dazn5 |
 | ![dazn6] | ![discoverychannel] | ![disneychannel] | ![disneyjunior] | ![docubox] | ![dogtv] |
+| dazn6 | discoverychannel | disneychannel | disneyjunior | docubox | dogtv |
 | ![eentertainement] | ![eltorotv] | ![euronews] | ![eurosport1] | ![eurosport2] | ![fashiontv] |
+| eentertainement | eltorotv | euronews | eurosport1 | eurosport2 | fashiontv |
 | ![fifaplus] | ![fight-box] | ![fight-network] | ![foodnetwork] | ![fptv] | ![fptv-white] |
+| fifaplus | fight-box | fight-network | foodnetwork | fptv | fptv-white |
 | ![fueltv] | ![gametoon] | ![globo] | ![globo-internacional] | ![globonews] | ![hgtv] |
+| fueltv | gametoon | globo | globo-internacional | globonews | hgtv |
 | ![iconcerts] | ![investigationdiscovery] | ![kuriakostv] | ![localvisao] | ![mcmpop] | ![mezzo] |
+| iconcerts | investigationdiscovery | kuriakostv | localvisao | mcmpop | mezzo |
 | ![motorvision] | ![motorvision-tv-white] | ![mtv] | ![national-geographic] | ![national-geographic-wild] | ![nba-tv] |
+| motorvision | motorvision-tv-white | mtv | national-geographic | national-geographic-wild | nba-tv |
 | ![news-now] | ![news-now-white] | ![nickelodeon] | ![nickjr] | ![nos-studios] | ![odisseia] |
+| news-now | news-now-white | nickelodeon | nickjr | nos-studios | odisseia |
 | ![onetoro] | ![pfc] | ![porto-canal] | ![protv] | ![rtp-acores] | ![rtp-africa] |
+| onetoro | pfc | porto-canal | protv | rtp-acores | rtp-africa |
 | ![rtp-madeira] | ![rtp-memoria] | ![rtp-mundo] | ![rtp-noticias] | ![rtp1] | ![rtp2] |
+| rtp-madeira | rtp-memoria | rtp-mundo | rtp-noticias | rtp1 | rtp2 |
 | ![sic-alta-definicao] | ![sic-caras] | ![sic-internacional] | ![sic-mulher] | ![sic-noticias] | ![sic-novelas] |
+| sic-alta-definicao | sic-caras | sic-internacional | sic-mulher | sic-noticias | sic-novelas |
 | ![sic] | ![sic-radical] | ![sic-replay] | ![sick] | ![sportingtv] | ![sportingtv-white] |
+| sic | sic-radical | sic-replay | sick | sportingtv | sportingtv-white |
 | ![sporttv+] | ![sporttv1] | ![sporttv2] | ![sporttv3] | ![sporttv4] | ![sporttv5] |
+| sporttv+ | sporttv1 | sporttv2 | sporttv3 | sporttv4 | sporttv5 |
 | ![sporttv6] | ![sporttv7] | ![sportv] | ![star-channel] | ![star-comedy] | ![star-crime] |
+| sporttv6 | sporttv7 | sportv | star-channel | star-comedy | star-crime |
 | ![star-life] | ![star-movies] | ![syfy] | ![tcvi] | ![tcvi-white] | ![the-travel-channel] |
+| star-life | star-movies | syfy | tcvi | tcvi-white | the-travel-channel |
 | ![tlc] | ![tpa] | ![tpai] | ![trace-toca] | ![trace-toca] | ![trace-urban] |
+| tlc | tpa | tpai | trace-toca | trace-toca | trace-urban |
 | ![tvcine-action] | ![tvcine-edition] | ![tvcine-emotion] | ![tvcine-top] | ![tvgalicia] | ![tvi-internacional] |
+| tvcine-action | tvcine-edition | tvcine-emotion | tvcine-top | tvgalicia | tvi-internacional |
 | ![tvi] | ![tvi-reality] | ![tvrecord] | ![v+tvi] | ![vintv] | ![zapviva] |
+| tvi | tvi-reality | tvrecord | v+tvi | vintv | zapviva |
 | ![space] | ![space] | ![space] | ![space] | ![space] | ![space] |
 
 
