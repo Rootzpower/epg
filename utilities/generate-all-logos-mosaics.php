@@ -147,7 +147,7 @@ function createMDFiles(array $logos, string $source): void
         $outputContent .= "$table\n";
         $outputContent .= "\n";
         $outputContent .= "$list\n"
-        $outputContent .= "[space]:../../utilities/space-1500.png \"Space\"\n";
+        $outputContent .= "[space]:../utilities/space-1500.png \"Space\"\n";
         $outputContent .= "\n";
 
         file_put_contents($outputFile, $outputContent);
