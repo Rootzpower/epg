@@ -73,28 +73,21 @@ function createMDFiles(array $logos, string $source): void
             $i++;
         }
 
-        for ($j = 0; $j < count($matrix); $j++) {
-            for ($i = 0; $i < $settings['cols']; $i++) {
-                $logo = $matrix[$j][$i] ?? "space";
+       for ($i = 0; $i < $settings['cols']; $i++) {
+    $logo = $matrix[$j][$i] ?? null;
 
-                $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">'
-                        . '<img src="' . $logo . '.png" width="120">'
-                        . '</div> ';
+    $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">';
 
-                if ($i === $settings['cols'] - 1) {
-                    $table .= "|\n";
-                }
-            }
+    if ($logo !== null) {
+        $table .= '<img src="' . $logo . '.png" width="120">';
+    }
 
-            if ($j === 0) {
-                for ($i = 0; $i < $settings['cols']; $i++) {
-                    $table .= "|:---:";
-                    if ($i === $settings['cols'] - 1) {
-                        $table .= "|\n";
-                    }
-                }
-            }
-        }
+    $table .= '</div> ';
+
+    if ($i === $settings['cols'] - 1) {
+        $table .= "|\n";
+    }
+}
 
         $outputContent .= "$table\n";
 
