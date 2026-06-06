@@ -1,8 +1,8 @@
 # Logos
 
 | ![24-kitchen] | ![a-bola-tv] | ![afro-music] | ![amc-break] | ![amc-crime] | ![amc] |
-| 24-kitchen | a-bola-tv | afro-music | amc-break | amc-crime | amc |
 |:---:|:---:|:---:|:---:|:---:|:---:|
+| 24-kitchen | a-bola-tv | afro-music | amc-break | amc-crime | amc |
 | ![axn-movies] | ![axn] | ![axn-white] | ![babytv] | ![benfica] | ![bloomberg-television] |
 | axn-movies | axn | axn-white | babytv | benfica | bloomberg-television |
 | ![caca-e-pesca] | ![cacavision] | ![canal-historia-withe] | ![canal-hollywood] | ![canal-panda] | ![canal-q] |
