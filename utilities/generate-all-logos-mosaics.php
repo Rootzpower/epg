@@ -124,8 +124,16 @@ function createMDFiles(array $logos, string $source): void
 
         // Linhas da tabela
         for ($j = 0; $j < count($matrix); $j++) {
+            // Linha das imagens
             for ($i = 0; $i < $settings['cols']; $i++) {
                 $table .= "| ![" . ($matrix[$j][$i] ?? "space") . "] ";
+            }
+            $table .= "|\n";
+
+            // Linha dos nomes
+            for ($i = 0; $i < $settings['cols']; $i++) {
+                $name = $matrix[$j][$i] ?? "";
+                $table .= "| " . ($name !== "" ? $name : "") . " ";
             }
             $table .= "|\n";
 
