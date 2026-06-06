@@ -3,5 +3,4 @@ tmp/
 *.log
 *.tmp
 node_modules/
-/ToFix.txt
-/git.txt
+resources/
