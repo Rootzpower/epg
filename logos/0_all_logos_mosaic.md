@@ -41,12 +41,12 @@
 | sporttv6 | sporttv7 | sportv | star-channel | star-comedy | star-crime |
 | ![star-life] | ![star-movies] | ![syfy] | ![tcvi] | ![tcvi-white] | ![the-travel-channel] |
 | star-life | star-movies | syfy | tcvi | tcvi-white | the-travel-channel |
-| ![tlc] | ![tpa] | ![tpai] | ![trace-toca] | ![trace-toca] | ![trace-urban] |
-| tlc | tpa | tpai | trace-toca | trace-toca | trace-urban |
-| ![tvcine-action] | ![tvcine-edition] | ![tvcine-emotion] | ![tvcine-top] | ![tvgalicia] | ![tvi-internacional] |
-| tvcine-action | tvcine-edition | tvcine-emotion | tvcine-top | tvgalicia | tvi-internacional |
-| ![tvi] | ![tvi-reality] | ![tvrecord] | ![v+tvi] | ![vintv] | ![zapviva] |
-| tvi | tvi-reality | tvrecord | v+tvi | vintv | zapviva |
+| ![tlc] | ![tpa] | ![tpai] | ![trace-toca] | ![trace-urban] | ![tvcine-action] |
+| tlc | tpa | tpai | trace-toca | trace-urban | tvcine-action |
+| ![tvcine-edition] | ![tvcine-emotion] | ![tvcine-top] | ![tvgalicia] | ![tvi-internacional] | ![tvi] |
+| tvcine-edition | tvcine-emotion | tvcine-top | tvgalicia | tvi-internacional | tvi |
+| ![tvi-reality] | ![tvrecord] | ![v+tvi] | ![vintv] | ![zapviva] | ![space] |
+| tvi-reality | tvrecord | v+tvi | vintv | zapviva |  |
 | ![space] | ![space] | ![space] | ![space] | ![space] | ![space] |
 
 
@@ -174,7 +174,6 @@
 [tpa]:tpa.png
 [tpai]:tpai.png
 [trace-toca]:trace-toca.png
-[trace-toca]:trace-toca-pt.png
 [trace-urban]:trace-urban.png
 [tvcine-action]:tvcine-action-pt.png
 [tvcine-edition]:tvcine-edition-pt.png
