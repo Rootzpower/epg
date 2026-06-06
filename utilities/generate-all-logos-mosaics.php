@@ -1,8 +1,22 @@
 <?php
-/*
-Based on the original script from the tv-logos project.
-@see https://github.com/tv-logo/tv-logos
-*/ 
+
+/**
+ * @file
+ * PHP script to generate all logos mosaics.
+ * Can only be run from CLI.
+ * Usage:
+ * Open a terminal, access the root of epg repository and run:
+ * php utilities/generate-all-logos-mosaics.php
+ *
+ * Based on the original script from the tv-logos project.
+ * @see https://github.com/tv-logo/tv-logos
+ *
+ * Adapted by Rootzpower for use in the EPG project.
+ * @see https://github.com/Rootzpower/epg
+ *
+ * Tested with PHP 8.4 (cli).
+ * ⚠️ Script comes with no warranty, use at your own risk.
+ */
 
 error_reporting(E_ALL);
 
@@ -18,6 +32,13 @@ $settings = array(
     'cols' => 6,
 );
 
+/**
+ * List all files of a directory.
+ *
+ * @param string $dir Directory to scan.
+ *
+ * @return array<string>
+ */
 function listAllFiles(string $dir): array
 {
     $array = array_diff(scandir($dir), array('.', '..'));
@@ -36,6 +57,14 @@ function listAllFiles(string $dir): array
     return $array;
 }
 
+/**
+ * Organize logos and sort them ASC.
+ *
+ * @param array<string> $logos List of logos.
+ * @param string $source Path to folder.
+ *
+ * @return array<string, array<string, string>>
+ */
 function organizeContent(array $logos, string $source): array
 {
     $output = array();
@@ -50,9 +79,21 @@ function organizeContent(array $logos, string $source): array
         }
     }
 
+    if (isset($output['logos'])) {
+        ksort($output['logos']);
+    }
+
     return $output;
 }
 
+/**
+ * Create MD mosaic files.
+ *
+ * @param array<string, array<string, string>> $logos List of logos.
+ * @param string $source Path to folder.
+ *
+ * @return void
+ */
 function createMDFiles(array $logos, string $source): void
 {
     global $settings;
@@ -66,51 +107,58 @@ function createMDFiles(array $logos, string $source): void
 
         $table = "";
         $matrix = array();
+        $list = "";
         $i = 0;
 
         foreach ($files as $fileKey => $file) {
-            $matrix[intdiv($i, $settings['cols'])][] = $fileKey;
+            $displayKey = $fileKey;
+            // Remover sufixo de país ex: -pt, -es, -fr
+            $displayKey = preg_replace('/-[a-z]{2}$/', '', $displayKey);
+            // Evitar conflito com palavra reservada "space"
+            $displayKey = preg_replace('/^space$/', 'space-channel', $displayKey);
+
+            $matrix[intdiv($i, $settings['cols'])][] = $displayKey;
+            $list .= "[$displayKey]:$file\n";
             $i++;
         }
 
+        // Linhas da tabela
         for ($j = 0; $j < count($matrix); $j++) {
-
-            // Linha das imagens
             for ($i = 0; $i < $settings['cols']; $i++) {
-                $logo = $matrix[$j][$i] ?? "";
-
-                $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">';
-
-                if ($logo !== "") {
-                    $table .= '<img src="' . $logo . '.png" width="100">';
-                }
-
-                $table .= '</div> ';
+                $table .= "| ![" . ($matrix[$j][$i] ?? "space") . "] ";
             }
             $table .= "|\n";
 
-            // Header da tabela (só na primeira linha)
+            // Header só na primeira linha
             if ($j === 0) {
                 for ($i = 0; $i < $settings['cols']; $i++) {
                     $table .= "|:---:";
                 }
                 $table .= "|\n";
             }
-
-            // Linha dos nomes
-            for ($i = 0; $i < $settings['cols']; $i++) {
-                $logo = $matrix[$j][$i] ?? "";
-               $table .= '| <div align="center"><span style="font-family: monospace; font-size:8px;">' . ($logo !== "" ? $logo : '') . '</span></div> ';
-            }
-            $table .= "|\n";
         }
 
+        // Linha extra de espaço no final
+        for ($i = 0; $i < $settings['cols']; $i++) {
+            $table .= "| ![space] ";
+        }
+        $table .= "|\n";
+
         $outputContent .= "$table\n";
+        $outputContent .= "\n";
+        $outputContent .= "$list\n"
+        $outputContent .= "[space]:../../utilities/space-1500.png \"Space\"\n";
+        $outputContent .= "\n";
 
         file_put_contents($outputFile, $outputContent);
     }
 }
 
+/**
+ * Generate all logos mosaics MD files.
+ *
+ * @return void
+ */
 function generateAllLogosMosaics(): void
 {
     global $settings;
