@@ -1,5 +1,7 @@
 # Logos with names
 
+<sub>To properly view some transparent logos, enable dark mode.</sub>
+
 | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px; min-width:140px;"><img src="1+1-bw.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px; min-width:140px;"><img src="24kitchen-bw.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px; min-width:140px;"><img src="24kitchen.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px; min-width:140px;"><img src="abolatv-bw.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px; min-width:140px;"><img src="abolatv.png" width="120"></div> |
 |:---:|:---:|:---:|:---:|:---:|
 | <div align="center" style="min-width:140px;"><span style="font-family: monospace; font-size:8px;">1+1-bw</span></div> | <div align="center" style="min-width:140px;"><span style="font-family: monospace; font-size:8px;">24kitchen-bw</span></div> | <div align="center" style="min-width:140px;"><span style="font-family: monospace; font-size:8px;">24kitchen</span></div> | <div align="center" style="min-width:140px;"><span style="font-family: monospace; font-size:8px;">abolatv-bw</span></div> | <div align="center" style="min-width:140px;"><span style="font-family: monospace; font-size:8px;">abolatv</span></div> |
