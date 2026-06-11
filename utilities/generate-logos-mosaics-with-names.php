@@ -26,7 +26,7 @@ $settings = array(
     'countriesFolders' => array(
         __DIR__ . '/../logos',
     ),
-    'outputFilename' => '0_logos_mosaic_with_names.md',
+    'outputFilename' => '0-mosaic-with-names.md',
     'cols' => 5,
 );
 
