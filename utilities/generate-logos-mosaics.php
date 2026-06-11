@@ -1,19 +1,20 @@
 <?php
+
 /**
  * @file
- * PHP script responsible for generating all logo mosaics.
- * This script must be executed exclusively from the command-line interface (CLI).
- *
+ * PHP script to generate all logos mosaics.
+ * Can only be run from CLI.
  * Usage:
- * Open a terminal, navigate to the root of the EPG repository, and run:
+ * Open a terminal, access the root of epg repository and run:
  * php utilities/generate-all-logos-mosaics.php
  *
  * Based on the original script from the tv-logos project.
  * @see https://github.com/tv-logo/tv-logos
  *
- * Tested with PHP 8.4 (CLI).
- * ⚠️ This script is provided without warranty. Use at your own risk.
+ * Tested with PHP 8.4 (cli).
+ * ⚠️ Script comes with no warranty, use at your own risk.
  */
+ 
 error_reporting(E_ALL);
 if (PHP_SAPI !== 'cli') {
     die("This script must be ran from the command line.");
@@ -22,7 +23,7 @@ $settings = array(
     'countriesFolders' => array(
         __DIR__ . '/../logos',
     ),
-    'outputFilename' => '0-logos-mosaic.md',
+    'outputFilename' => '0_all_logos_mosaic.md',
     'cols' => 6,
 );
 function listAllFiles(string $dir): array
@@ -59,7 +60,6 @@ function createMDFiles(array $logos, string $source): void
         $outputFile = $source . DIRECTORY_SEPARATOR . $settings['outputFilename'];
         echo "Generating $outputFile\n";
         $outputContent = "# Logos\n\n";
-        $outputContent .= "*To properly view some transparent logos, enable dark mode.*\n\n";
         $table = "";
         $matrix = array();
         $i = 0;
@@ -68,7 +68,6 @@ function createMDFiles(array $logos, string $source): void
             $i++;
         }
         for ($j = 0; $j < count($matrix); $j++) {
-            // Image row
             for ($i = 0; $i < $settings['cols']; $i++) {
                 $logo = $matrix[$j][$i] ?? null;
 
@@ -86,7 +85,6 @@ function createMDFiles(array $logos, string $source): void
                     $table .= "|\n";
                 }
             }
-            // // Table header (only generated for the first row)
             if ($j === 0) {
                 for ($i = 0; $i < $settings['cols']; $i++) {
                     $table .= "|:---:";
