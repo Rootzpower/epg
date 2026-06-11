@@ -67,7 +67,7 @@ function createMDFiles(array $logos, string $source): void
             $i++;
         }
         for ($j = 0; $j < count($matrix); $j++) {
-            // Image row
+            // Linha das imagens
             for ($i = 0; $i < $settings['cols']; $i++) {
                 $logo = $matrix[$j][$i] ?? null;
                 $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">';
@@ -81,7 +81,7 @@ function createMDFiles(array $logos, string $source): void
                     $table .= "|\n";
                 }
             }
-            // Table header (only generated for the first row)
+            // Header da tabela (só na primeira linha)
             if ($j === 0) {
                 for ($i = 0; $i < $settings['cols']; $i++) {
                     $table .= "|:---:";
@@ -90,7 +90,7 @@ function createMDFiles(array $logos, string $source): void
                     }
                 }
             }
-            // Names row
+            // Linha dos nomes
             for ($i = 0; $i < $settings['cols']; $i++) {
                 $logo = $matrix[$j][$i] ?? null;
                 $table .= '| <div align="center">';
