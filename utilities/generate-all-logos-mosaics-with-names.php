@@ -1,8 +1,19 @@
 <?php
-/*
-Based on the original script from the tv-logos project.
-@see https://github.com/tv-logo/tv-logos
-*/ 
+
+/**
+ * @file
+ * PHP script to generate all logos mosaics.
+ * Can only be run from CLI.
+ * Usage:
+ * Open a terminal, access the root of epg repository and run:
+ * php utilities/generate-all-logos-mosaics.php
+ *
+ * Based on the original script from the tv-logos project.
+ * @see https://github.com/tv-logo/tv-logos
+ *
+ * Tested with PHP 8.4 (cli).
+ * ⚠️ Script comes with no warranty, use at your own risk.
+ */
 
 error_reporting(E_ALL);
 
@@ -82,7 +93,7 @@ function createMDFiles(array $logos, string $source): void
                 $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px; min-width:140px;">';
 
                 if ($logo !== "") {
-                    $table .= '<img src="' . $logo . '.png" width="100">';
+                    $table .= '<img src="' . $logo . '.png" width="100" height="60">';
                 }
 
                 $table .= '</div> ';
