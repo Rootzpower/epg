@@ -38,7 +38,7 @@ function listAllFiles(string $dir): array
     }
     return $array;
 }
-function organizeContent(array $logos, string $source): array
+function organizeContent(array $logos): array
 {
     $output = array();
     foreach ($logos as $file) {
@@ -67,23 +67,21 @@ function createMDFiles(array $logos, string $source): void
             $i++;
         }
         for ($j = 0; $j < count($matrix); $j++) {
+            // Linha das imagens
             for ($i = 0; $i < $settings['cols']; $i++) {
                 $logo = $matrix[$j][$i] ?? null;
-
                 $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">';
-
                 if ($logo !== null) {
                     $table .= '<img src="' . $logo . '.png" width="120">';
                 } else {
                     $table .= '&nbsp;';
                 }
-
                 $table .= '</div> ';
-
                 if ($i === $settings['cols'] - 1) {
                     $table .= "|\n";
                 }
             }
+            // Header da tabela (só na primeira linha)
             if ($j === 0) {
                 for ($i = 0; $i < $settings['cols']; $i++) {
                     $table .= "|:---:";
@@ -102,7 +100,7 @@ function generateAllLogosMosaics(): void
     global $settings;
     foreach ($settings['countriesFolders'] as $source) {
         $logos = listAllFiles($source);
-        $logos = organizeContent($logos, $source);
+        $logos = organizeContent($logos);
         createMDFiles($logos, $source);
     }
 }
