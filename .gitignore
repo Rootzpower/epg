@@ -4,4 +4,3 @@ tmp/
 *.tmp
 node_modules/
 resources/
-utilities/*.bak
