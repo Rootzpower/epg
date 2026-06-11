@@ -86,35 +86,34 @@ function createMDFiles(array $logos, string $source): void
 
         for ($j = 0; $j < count($matrix); $j++) {
 
-            // Linha única com imagem + nome na mesma célula
+            // Linha das imagens
             for ($i = 0; $i < $settings['cols']; $i++) {
-                $logo = $matrix[$j][$i] ?? null;
+                $logo = $matrix[$j][$i] ?? "";
 
-                $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px; width:120px;">';
+                $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px; min-width:140px;">';
 
-                if ($logo !== null) {
-                    $table .= '<img src="' . $logo . '.png" width="100" height="60"><br>';
-                    $table .= '<span style="font-family:monospace; font-size:8px; color:#fff;">' . $logo . '</span>';
-                } else {
-                    $table .= '&nbsp;';
+                if ($logo !== "") {
+                    $table .= '<img src="' . $logo . '.png" width="120">';
                 }
 
                 $table .= '</div> ';
-
-                if ($i === $settings['cols'] - 1) {
-                    $table .= "|\n";
-                }
             }
+            $table .= "|\n";
 
             // Header da tabela (só na primeira linha)
             if ($j === 0) {
                 for ($i = 0; $i < $settings['cols']; $i++) {
                     $table .= "|:---:";
-                    if ($i === $settings['cols'] - 1) {
-                        $table .= "|\n";
-                    }
                 }
+                $table .= "|\n";
             }
+
+            // Linha dos nomes
+            for ($i = 0; $i < $settings['cols']; $i++) {
+                $logo = $matrix[$j][$i] ?? "";
+               $table .= '| <div align="center" style="min-width:140px;"><span style="font-family: monospace; font-size:8px;">' . ($logo !== "" ? $logo : '') . '</span></div> ';
+            }
+            $table .= "|\n";
         }
 
         $outputContent .= "$table\n";
