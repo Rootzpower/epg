@@ -87,7 +87,7 @@ function createMDFiles(array $logos, string $source): void
             // Linha dos nomes
             for ($i = 0; $i < $settings['cols']; $i++) {
                 $logo = $matrix[$j][$i] ?? "";
-                $table .= '| <div align="center">' . ($logo !== "" ? $logo : '') . '</div> ';
+                $table .= '| <div align="center"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="120" height="1"><br>' . ($logo !== "" ? $logo : '&nbsp;') . '</div> ';
             }
             $table .= "|\n";
         }
