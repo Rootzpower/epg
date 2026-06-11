@@ -23,7 +23,7 @@ jobs:
           php-version: '8.4'
 
       - name: Run script
-        run: php utilities/generate-all-logos-mosaics-with-names.php
+        run: php utilities/generate-logos-mosaics-with-names.php
 
       - name: Commit changes
         run: |
