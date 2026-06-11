@@ -61,10 +61,8 @@ function createMDFiles(array $logos, string $source): void
         $outputFile = $source . DIRECTORY_SEPARATOR . $settings['outputFilename'];
 
         echo "Generating $outputFile\n";
-
-        $outputContent = "# Logos\n\n";
-		$outputContent .= "*To properly view some transparent logos, enable dark mode.*\n\n";
-
+        $outputContent = "# Logos with names\n\n";
+        $outputContent .= "*To properly view some transparent logos, enable dark mode.*\n\n";
         $table = "";
         $matrix = array();
         $i = 0;
