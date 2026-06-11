@@ -68,7 +68,6 @@ function createMDFiles(array $logos, string $source): void
         }
         for ($j = 0; $j < count($matrix); $j++) {
             // Image row
-			// Renders each logo inside a styled container to ensure consistent spacing and visibility.
             for ($i = 0; $i < $settings['cols']; $i++) {
                 $logo = $matrix[$j][$i] ?? null;
                 $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">';
@@ -83,7 +82,6 @@ function createMDFiles(array $logos, string $source): void
                 }
             }
             // Table header (only generated for the first row)
-			// Defines column alignment for the Markdown table.
             if ($j === 0) {
                 for ($i = 0; $i < $settings['cols']; $i++) {
                     $table .= "|:---:";
@@ -93,7 +91,6 @@ function createMDFiles(array $logos, string $source): void
                 }
             }
             // Names row
-			// Displays the logo identifiers below each corresponding image.
             for ($i = 0; $i < $settings['cols']; $i++) {
                 $logo = $matrix[$j][$i] ?? null;
                 $table .= '| <div align="center">';
