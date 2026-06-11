@@ -1,15 +1,6 @@
 <?php
 declare(strict_types=1);
 
-/**
- * @file
- * PHP script responsible for generating all logo mosaics.
- * This script must be executed exclusively from the command-line interface (CLI).
- *
- * Usage:
- * php utilities/generate-all-logos-mosaics.php
- */
-
 error_reporting(E_ALL);
 
 if (PHP_SAPI !== 'cli') {
@@ -20,8 +11,8 @@ $settings = [
     'countriesFolders' => [
         __DIR__ . '/../logos',
     ],
-    'outputFilename' => '0_logos-mosaic-with-names.md',
-    'cols' => 6,
+    'outputFilename' => '0_logos_mosaic_with_names.md',
+    'cols' => 6, // ← AGORA 6 COLUNAS
 ];
 
 /**
@@ -62,7 +53,6 @@ function organizeContent(array $logos): array
         }
     }
 
-    // Garantir ordem alfabética
     if (isset($output['logos'])) {
         ksort($output['logos']);
     }
@@ -86,7 +76,6 @@ function createMDFiles(array $logos, string $source, array $settings): void
         $matrix = [];
         $i = 0;
 
-        // Build a matrix of logo keys based on the configured number of columns.
         foreach ($files as $fileKey => $file) {
             $matrix[intdiv($i, $settings['cols'])][] = $fileKey;
             $i++;
@@ -100,10 +89,11 @@ function createMDFiles(array $logos, string $source, array $settings): void
             for ($i = 0; $i < $settings['cols']; $i++) {
                 $logo = $matrix[$j][$i] ?? null;
 
-                $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">';
+                $table .= '| <div align="center" style="background:#756f6f; padding:8px; border-radius:8px;">';
 
                 if ($logo !== null) {
-                    $table .= '<img src="' . $logo . '.png" width="120">';
+                    // Ajuste para 6 colunas → imagens ligeiramente mais pequenas
+                    $table .= '<img src="' . $logo . '.png" width="110">';
                 } else {
                     $table .= '&nbsp;';
                 }
@@ -115,7 +105,7 @@ function createMDFiles(array $logos, string $source, array $settings): void
                 }
             }
 
-            // Table header (only once)
+            // Header row
             if ($j === 0) {
                 for ($i = 0; $i < $settings['cols']; $i++) {
                     $table .= "|:---:";
