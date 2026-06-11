@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @file
  * PHP script to generate all logos mosaics.
@@ -14,7 +13,6 @@
  * Tested with PHP 8.4 (cli).
  * ⚠️ Script comes with no warranty, use at your own risk.
  */
- 
 error_reporting(E_ALL);
 if (PHP_SAPI !== 'cli') {
     die("This script must be ran from the command line.");
