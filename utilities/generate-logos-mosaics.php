@@ -23,7 +23,7 @@ $settings = array(
     'countriesFolders' => array(
         __DIR__ . '/../logos',
     ),
-    'outputFilename' => '0_all_logos_mosaic.md',
+    'outputFilename' => '0-logos-mosaic.md',
     'cols' => 6,
 );
 function listAllFiles(string $dir): array
