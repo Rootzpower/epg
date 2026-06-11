@@ -72,7 +72,7 @@ function createMDFiles(array $logos, string $source): void
                 $logo = $matrix[$j][$i] ?? "";
                 $table .= '| <div align="center">';
                 if ($logo !== "") {
-                    $table .= '<img src="' . $logo . '.png" width="100" height="60">';
+                    $table .= '<img src="' . $logo . '.png" width="120 height="120">';
                 }
                 $table .= '</div> ';
             }
