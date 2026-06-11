@@ -44,7 +44,7 @@ function organizeContent(array $logos): array
     foreach ($logos as $file) {
         $filename = basename($file);
         $ext = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
-        if ($ext === 'png') {
+        if (in_array($ext, ['png'])) {
             $key = preg_replace('/\.png$/i', '', $filename);
             $output['logos'][$key] = $filename;
         }
@@ -69,27 +69,41 @@ function createMDFiles(array $logos, string $source): void
         for ($j = 0; $j < count($matrix); $j++) {
             // Linha das imagens
             for ($i = 0; $i < $settings['cols']; $i++) {
-                $logo = $matrix[$j][$i] ?? "";
-                $table .= '| <div align="center">';
-                if ($logo !== "") {
-                    $table .= '<img src="' . $logo . '.png" width="120" height="120">';
+                $logo = $matrix[$j][$i] ?? null;
+                $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">';
+                if ($logo !== null) {
+                    $table .= '<img src="' . $logo . '.png" width="120">';
+                } else {
+                    $table .= '&nbsp;';
                 }
                 $table .= '</div> ';
+                if ($i === $settings['cols'] - 1) {
+                    $table .= "|\n";
+                }
             }
-            $table .= "|\n";
             // Header da tabela (só na primeira linha)
             if ($j === 0) {
                 for ($i = 0; $i < $settings['cols']; $i++) {
                     $table .= "|:---:";
+                    if ($i === $settings['cols'] - 1) {
+                        $table .= "|\n";
+                    }
                 }
-                $table .= "|\n";
             }
             // Linha dos nomes
             for ($i = 0; $i < $settings['cols']; $i++) {
-                $logo = $matrix[$j][$i] ?? "";
-                $table .= '| <div align="center"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="120" height="1"><br>' . ($logo !== "" ? $logo : '&nbsp;') . '</div> ';
+                $logo = $matrix[$j][$i] ?? null;
+                $table .= '| <div align="center">';
+                if ($logo !== null) {
+                    $table .= $logo;
+                } else {
+                    $table .= '&nbsp;';
+                }
+                $table .= '</div> ';
+                if ($i === $settings['cols'] - 1) {
+                    $table .= "|\n";
+                }
             }
-            $table .= "|\n";
         }
         $outputContent .= "$table\n";
         file_put_contents($outputFile, $outputContent);
