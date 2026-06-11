@@ -1,0 +1,34 @@
+# Based on the original script from the tv-logos project.
+# See: https://github.com/tv-logo/tv-logos
+
+name: Generate Logo Mosaics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * *'
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.4'
+
+      - name: Run script
+        run: php utilities/generate-all-logos-mosaics-mod.php
+
+      - name: Commit changes
+        run: |
+          git config user.name "🤖 R2-D2"
+          git config user.email "r2d2@rebel-alliance.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "chore: regenerate logo mosaics"
+          git push
