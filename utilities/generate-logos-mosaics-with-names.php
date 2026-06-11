@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 
 /**
  * @file
@@ -22,26 +23,20 @@ if (PHP_SAPI !== 'cli') {
     die("This script must be run from the command line.");
 }
 
-$settings = array(
-    'countriesFolders' => array(
+$settings = [
+    'countriesFolders' => [
         __DIR__ . '/../logos',
-    ),
+    ],
     'outputFilename' => '0_logos-mosaic-with-names.md',
     'cols' => 5,
-);
+];
 
 /**
  * Recursively lists all files within a directory.
- *
- * @param string $dir
- *   Base directory to scan.
- *
- * @return array
- *   A flat array containing full paths to all files found.
  */
 function listAllFiles(string $dir): array
 {
-    $array = array_diff(scandir($dir), array('.', '..'));
+    $array = array_diff(scandir($dir), ['.', '..']);
 
     foreach ($array as &$item) {
         $item = $dir . DIRECTORY_SEPARATOR . $item;
@@ -59,25 +54,23 @@ function listAllFiles(string $dir): array
 
 /**
  * Filters and organizes logo files into a structured array.
- *
- * @param array $logos
- *   List of file paths.
- *
- * @return array
- *   Associative array indexed by logo name (without extension).
  */
 function organizeContent(array $logos): array
 {
-    $output = array();
+    $output = [];
 
     foreach ($logos as $file) {
         $filename = basename($file);
         $ext = strtolower(pathinfo($filename, PATHINFO_EXTENSION));
 
-        if (in_array($ext, ['png'])) {
+        if ($ext === 'png') {
             $key = preg_replace('/\.png$/i', '', $filename);
             $output['logos'][$key] = $filename;
         }
+    }
+
+    if (isset($output['logos'])) {
+        ksort($output['logos']);
     }
 
     return $output;
@@ -85,16 +78,9 @@ function organizeContent(array $logos): array
 
 /**
  * Generates Markdown mosaic files containing logos and their names.
- *
- * @param array $logos
- *   Structured array of logo filenames.
- * @param string $source
- *   Directory where the output file will be created.
  */
-function createMDFiles(array $logos, string $source): void
+function createMDFiles(array $logos, string $source, array $settings): void
 {
-    global $settings;
-
     foreach ($logos as $files) {
         $outputFile = $source . DIRECTORY_SEPARATOR . $settings['outputFilename'];
         echo "Generating $outputFile\n";
@@ -103,18 +89,19 @@ function createMDFiles(array $logos, string $source): void
         $outputContent .= "*For optimal visibility of transparent logos, enable dark mode.*\n\n";
 
         $table = "";
-        $matrix = array();
+        $matrix = [];
         $i = 0;
 
-        // Build a matrix of logo keys based on the configured number of columns.
         foreach ($files as $fileKey => $file) {
             $matrix[intdiv($i, $settings['cols'])][] = $fileKey;
             $i++;
         }
 
-        for ($j = 0; $j < count($matrix); $j++) {
+        $rows = count($matrix);
 
-            // Image row — renders each logo inside a styled container.
+        for ($j = 0; $j < $rows; $j++) {
+
+            // Image row
             for ($i = 0; $i < $settings['cols']; $i++) {
                 $logo = $matrix[$j][$i] ?? null;
 
@@ -133,7 +120,7 @@ function createMDFiles(array $logos, string $source): void
                 }
             }
 
-            // Table header — defines column alignment (generated only once).
+            // Header row
             if ($j === 0) {
                 for ($i = 0; $i < $settings['cols']; $i++) {
                     $table .= "|:---:";
@@ -143,11 +130,11 @@ function createMDFiles(array $logos, string $source): void
                 }
             }
 
-            // Name row — displays the logo identifier below each image.
+            // Name row — altura fixa + fonte pequena + overflow controlado
             for ($i = 0; $i < $settings['cols']; $i++) {
                 $logo = $matrix[$j][$i] ?? null;
 
-                $table .= '| <div align="center">';
+                $table .= '| <div align="center" style="height:22px; line-height:22px; font-size:12px; overflow:hidden; white-space:nowrap;">';
 
                 if ($logo !== null) {
                     $table .= $logo;
@@ -170,17 +157,20 @@ function createMDFiles(array $logos, string $source): void
 
 /**
  * Main execution function.
- * Iterates through all configured logo directories and generates mosaics.
  */
-function generateAllLogosMosaics(): void
+function generateAllLogosMosaics(array $settings): void
 {
-    global $settings;
-
     foreach ($settings['countriesFolders'] as $source) {
         $logos = listAllFiles($source);
         $logos = organizeContent($logos);
-        createMDFiles($logos, $source);
+
+        if (empty($logos['logos'])) {
+            echo "No logos found in $source\n";
+            continue;
+        }
+
+        createMDFiles($logos, $source, $settings);
     }
 }
 
-generateAllLogosMosaics();
+generateAllLogosMosaics($settings);
