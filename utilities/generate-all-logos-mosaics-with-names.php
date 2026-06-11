@@ -26,7 +26,7 @@ $settings = array(
         __DIR__ . '/../logos',
     ),
     'outputFilename' => '0_all_logos_mosaic_with_names.md',
-    'cols' => 5,
+    'cols' => 6,
 );
 
 function listAllFiles(string $dir): array
