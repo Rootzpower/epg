@@ -2,7 +2,7 @@
 /*
 Based on the original script from the tv-logos project.
 @see https://github.com/tv-logo/tv-logos
-*/
+*/ 
 
 error_reporting(E_ALL);
 
@@ -62,7 +62,6 @@ function createMDFiles(array $logos, string $source): void
 
         echo "Generating $outputFile\n";
 
-        // Título da página
         $outputContent = "# Logos with names\n\n";
 
         $table = "";
@@ -80,8 +79,7 @@ function createMDFiles(array $logos, string $source): void
             for ($i = 0; $i < $settings['cols']; $i++) {
                 $logo = $matrix[$j][$i] ?? "";
 
-                // Espaço antes do primeiro pipe evita corte no GitHub
-                $table .= ' | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">';
+                $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px; min-width:140px;">';
 
                 if ($logo !== "") {
                     $table .= '<img src="' . $logo . '.png" width="100">';
@@ -102,7 +100,7 @@ function createMDFiles(array $logos, string $source): void
             // Linha dos nomes
             for ($i = 0; $i < $settings['cols']; $i++) {
                 $logo = $matrix[$j][$i] ?? "";
-                $table .= ' | <div align="center"><span style="font-family: monospace; font-size:8px;">' . ($logo !== "" ? $logo : '') . '</span></div> ';
+               $table .= '| <div align="center" style="min-width:140px;"><span style="font-family: monospace; font-size:8px;">' . ($logo !== "" ? $logo : '') . '</span></div> ';
             }
             $table .= "|\n";
         }
