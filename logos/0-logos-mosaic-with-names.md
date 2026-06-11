@@ -1,4 +1,4 @@
-# Logos
+# Logos with names
 
 *To properly view some transparent logos, enable dark mode.*
 
