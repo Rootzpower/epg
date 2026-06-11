@@ -5,8 +5,8 @@ name: Generate Logo Mosaics with names
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 4 * * *'
+ # schedule:
+ #   - cron: '0 4 * * *'
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
