@@ -93,7 +93,7 @@ function createMDFiles(array $logos, string $source): void
                 $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px; min-width:140px;">';
 
                 if ($logo !== "") {
-                    $table .= '<img src="' . $logo . '.png" width="100" height="60">';
+                    $table .= '<img src="' . $logo . '.png" width="120" height="120">';
                 }
 
                 $table .= '</div> ';
