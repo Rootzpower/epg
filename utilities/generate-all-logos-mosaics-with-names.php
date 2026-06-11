@@ -2,7 +2,7 @@
 /*
 Based on the original script from the tv-logos project.
 @see https://github.com/tv-logo/tv-logos
-*/ 
+*/
 
 error_reporting(E_ALL);
 
@@ -14,7 +14,7 @@ $settings = array(
     'countriesFolders' => array(
         __DIR__ . '/../logos',
     ),
-    'outputFilename' => '0_all_logos_mosaic.md',
+    'outputFilename' => '0_all_logos_mosaic_with_names.md',
     'cols' => 6,
 );
 
@@ -62,7 +62,8 @@ function createMDFiles(array $logos, string $source): void
 
         echo "Generating $outputFile\n";
 
-        $outputContent = "# Logos\n\n";
+        // Título da página
+        $outputContent = "# Logos with names\n\n";
 
         $table = "";
         $matrix = array();
@@ -79,7 +80,8 @@ function createMDFiles(array $logos, string $source): void
             for ($i = 0; $i < $settings['cols']; $i++) {
                 $logo = $matrix[$j][$i] ?? "";
 
-                $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">';
+                // Espaço antes do primeiro pipe evita corte no GitHub
+                $table .= ' | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">';
 
                 if ($logo !== "") {
                     $table .= '<img src="' . $logo . '.png" width="100">';
@@ -100,7 +102,7 @@ function createMDFiles(array $logos, string $source): void
             // Linha dos nomes
             for ($i = 0; $i < $settings['cols']; $i++) {
                 $logo = $matrix[$j][$i] ?? "";
-               $table .= '| <div align="center"><span style="font-family: monospace; font-size:8px;">' . ($logo !== "" ? $logo : '') . '</span></div> ';
+                $table .= ' | <div align="center"><span style="font-family: monospace; font-size:8px;">' . ($logo !== "" ? $logo : '') . '</span></div> ';
             }
             $table .= "|\n";
         }

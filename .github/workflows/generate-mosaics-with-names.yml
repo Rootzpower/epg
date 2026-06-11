@@ -23,12 +23,12 @@ jobs:
           php-version: '8.4'
 
       - name: Run script
-        run: php utilities/generate-all-logos-mosaics-mod.php
+        run: php utilities/generate-all-logos-mosaics-with-names.php
 
       - name: Commit changes
         run: |
           git config user.name "🤖 R2-D2"
           git config user.email "r2d2@rebel-alliance.com"
           git add -A
-          git diff --staged --quiet || git commit -m "chore: regenerate logo mosaics"
+          git diff --staged --quiet || git commit -m "chore: regenerate logo mosaics with names"
           git push
