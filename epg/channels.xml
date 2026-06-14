@@ -31,6 +31,7 @@
   <channel site="tvi.iol.pt" site_id="vmais" lang="pt" xmltv_id="VPlusTVI.pt@SD">V+ TVI</channel>
 
   <!-- vodafone.pt -->
+  <channel site="vodafone.pt" site_id="2746" lang="pt" xmltv_id="BBCNews.uk@Europe">BBC World News</channel>
   <channel site="vodafone.pt" site_id="3027" lang="pt" xmltv_id="CineMundo.pt@SD">CineMundo</channel>
   <channel site="vodafone.pt" site_id="3885" lang="pt" xmltv_id="DAZN1.uk@Portugal">DAZN 1</channel>
   <channel site="vodafone.pt" site_id="3886" lang="pt" xmltv_id="DAZN2.uk@Portugal">DAZN 2</channel>
