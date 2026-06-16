@@ -32,6 +32,9 @@ npm run grab --- --sites=orangetv.orange.es --output=../epg/epg-orangetv-orange-
 # watch.whaletvplus.com
 npm run grab --- --sites=watch.whaletvplus.com --output=../epg/epg-watch-whaletvplus-com.xml --days=7 --maxConnections=20
 
+# nowplayer.now.com
+npm run grab --- --sites=nowplayer.now.com  --lang=en --output=../epg/nowplayer.now.com_en.channels.xml --days=7 --maxConnections=20
+
 # Compress epg xml files only for *.gz format
 cd ../epg
 gzip -k -f -9 epg*.xml

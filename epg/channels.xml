@@ -42,7 +42,6 @@
   <channel site="vodafone.pt" site_id="2934" lang="pt" xmltv_id="DocuBox.nl">DocuBox</channel>
   <channel site="vodafone.pt" site_id="2720" lang="pt" xmltv_id="FightBox.nl">FightBox</channel>
   <channel site="vodafone.pt" site_id="7075" lang="pt" xmltv_id="Gametoon.nl@SD">GameToon</channel>
-  <channel site="vodafone.pt" site_id="4862" lang="pt" xmltv_id="NBATVInternational.us@SD">NBA TV</channel>
   <channel site="vodafone.pt" site_id="2757" lang="pt" xmltv_id="PROTVInternational.ro@SD">Pro TV International</channel>
   <channel site="vodafone.pt" site_id="2773" lang="pt" xmltv_id="RaiNews24.it@SD">Rai News</channel>
 
@@ -207,5 +206,8 @@
 
   <!-- watch.whaletvplus.com -->
   <channel site="watch.whaletvplus.com" site_id="999420644834214634" lang="pt" xmltv_id="FIFAPlus.uk@Portuguese">FIFA+ (PT)</channel>
+  
+  <!-- nowplayer.now.com -->
+  <channel site="nowplayer.now.com" site_id="642" lang="en" xmltv_id="NBATV.us@SD">NBA TV</channel>
 
 </channels>
