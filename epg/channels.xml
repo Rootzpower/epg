@@ -40,8 +40,9 @@
   <channel site="vodafone.pt" site_id="3889" lang="pt" xmltv_id="DAZN5.uk@Portugal">DAZN 5</channel>
   <channel site="vodafone.pt" site_id="3890" lang="pt" xmltv_id="DAZN6.uk@Portugal">DAZN 6</channel>
   <channel site="vodafone.pt" site_id="2934" lang="pt" xmltv_id="DocuBox.nl">DocuBox</channel>
-  <channel site="vodafone.pt" site_id="7075" lang="pt" xmltv_id="Gametoon.nl@SD">GameToon</channel>
   <channel site="vodafone.pt" site_id="2720" lang="pt" xmltv_id="FightBox.nl">FightBox</channel>
+  <channel site="vodafone.pt" site_id="7075" lang="pt" xmltv_id="Gametoon.nl@SD">GameToon</channel>
+  <channel site="vodafone.pt" site_id="4862" lang="pt" xmltv_id="NBATVInternational.us@SD">NBA TV</channel>
   <channel site="vodafone.pt" site_id="2757" lang="pt" xmltv_id="PROTVInternational.ro@SD">Pro TV International</channel>
   <channel site="vodafone.pt" site_id="2773" lang="pt" xmltv_id="RaiNews24.it@SD">Rai News</channel>
 
