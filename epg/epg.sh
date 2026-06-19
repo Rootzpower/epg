@@ -28,7 +28,7 @@ npm run grab --- --sites=vodafone.pt --output=../epg/epg-vodafone-pt.xml --days=
 npm run grab --- --sites=nostv.pt --output=../epg/epg-nos-pt.xml --days=7 --maxConnections=20
 
 # MEO epg
-npm run grab --- --sites=meo.pt --output=../epg/epg-nos-pt.xml --days=7 --maxConnections=20
+npm run grab --- --sites=meo.pt --output=../epg/epg-meo-pt.xml --days=7 --maxConnections=20
 
 # ====================================================================================================
 # EPG INTERNACIONAIS
