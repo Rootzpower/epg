@@ -191,6 +191,9 @@
   <channel site="nostv.pt" site_id="571" lang="pt" xmltv_id="VITECAzoresTV.pt@SD">Azores TV</channel>
   <channel site="nostv.pt" site_id="701" lang="en" xmltv_id="WSport.za@SD">W-Sport</channel>
   <channel site="nostv.pt" site_id="538" lang="pt" xmltv_id="ZapViva.ao@SD">ZAP Viva HD</channel>
+  
+    <!-- meo.pt -->
+  <channel site="meo.pt" site_id="FIGHTSP" lang="pt" xmltv_id="FightSports.us@SD">Fight Sports</channel>
 
   <!-- vivoplay.com.br -->
   <channel site="vivoplay.com.br" site_id="lch1211" lang="pt" xmltv_id="Combate.br">Combate</channel>

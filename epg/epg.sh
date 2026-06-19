@@ -8,6 +8,10 @@ cd /home/runner/work/epg/epg/iptv-org-epg && npm install
 # Main epg
 npm run grab --- --channels=../epg/channels.xml --output=../epg/epg-main.xml --days=7 --maxConnections=20
 
+# ====================================================================================================
+# EPG NACIONAIS
+# ====================================================================================================
+
 # RTP epg
 npm run grab --- --sites=rtp.pt --output=../epg/epg-rtp-pt.xml --days=7 --maxConnections=20
 
@@ -17,23 +21,32 @@ npm run grab --- --sites=opto.sic.pt --output=../epg/epg-sic-pt.xml --days=7 --m
 # TVI epg
 npm run grab --- --sites=tvi.iol.pt --output=../epg/epg-tvi-pt.xml --days=7 --maxConnections=20
 
-# Vodafone PT epg
+# VODAFONE epg
 npm run grab --- --sites=vodafone.pt --output=../epg/epg-vodafone-pt.xml --days=7 --maxConnections=20
 
-# Nos epg
+# NOS epg
 npm run grab --- --sites=nostv.pt --output=../epg/epg-nos-pt.xml --days=7 --maxConnections=20
+
+# MEO epg
+npm run grab --- --sites=meo.pt --output=../epg/epg-nos-pt.xml --days=7 --maxConnections=20
+
+# ====================================================================================================
+# EPG INTERNACIONAIS
+# ====================================================================================================
 
 # Vivo Play epg
 npm run grab --- --sites=vivoplay.com.br --output=../epg/epg-vivoplay-br.xml --days=7 --maxConnections=20
 
-# orangetv.es
+# orangetv.es epg
 npm run grab --- --sites=orangetv.orange.es --output=../epg/epg-orangetv-orange-es.xml --days=7 --maxConnections=20
 
-# watch.whaletvplus.com
+# watch.whaletvplus.com epg
 npm run grab --- --sites=watch.whaletvplus.com --output=../epg/epg-watch-whaletvplus-com.xml --days=7 --maxConnections=20
 
-# nowplayer.now.com
+# nowplayer.now.com epg
 npm run grab --- --sites=nowplayer.now.com  --lang=en --output=../epg/nowplayer.now.com_en.channels.xml --days=7 --maxConnections=20
+
+# ====================================================================================================
 
 # Compress epg xml files only for *.gz format
 cd ../epg
