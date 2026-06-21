@@ -195,6 +195,16 @@
   <!-- meo.pt -->
   <channel site="meo.pt" site_id="ALMALUS" lang="pt" xmltv_id="AlmaLusa.pt@SD">Alma Lusa</channel>
   <channel site="meo.pt" site_id="FIGHTSP" lang="pt" xmltv_id="FightSports.us@SD">Fight Sports</channel>
+  
+  <!-- sporttv.pt -->
+  <channel site="sporttv.pt" site_id="727" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/7b1d37ebaabd616607f87e73b6b28461c4dc28a0.svg" xmltv_id="SportTV1.pt@SD">SPORTTV1 oficial-epg</channel>
+  <channel site="sporttv.pt" site_id="728" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/2adbed9d1e4d832b81c9b39c47d4d558ec5ecc5f.svg" xmltv_id="SportTV2.pt@SD">SPORTTV2 oficial-epg</channel>
+  <channel site="sporttv.pt" site_id="729" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/04cd76176390f40940a06c24f372c4780850fc44.svg" xmltv_id="SportTV3.pt@SD">SPORTTV3 oficial-epg</channel>
+  <channel site="sporttv.pt" site_id="5406" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/7f55db09622018d2e76770eb032adfd2c2178a22.svg" xmltv_id="SportTV4.pt@SD">SPORTTV4 oficial-epg</channel>
+  <channel site="sporttv.pt" site_id="5422" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/97cc61803f3ac434522800376e34332117fdd19f.svg" xmltv_id="SportTV5.pt@SD">SPORTTV5 oficial-epg</channel>
+  <channel site="sporttv.pt" site_id="7577" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/99242f707846ecc2d8222f3f3b03bfe3b17a169f.svg" xmltv_id="SportTV6.pt@SD">SPORTTV6 oficial-epg</channel>
+  <channel site="sporttv.pt" site_id="7600" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/88c0c128f1a26b73c1452ff66e19e88f2db549c6.svg" xmltv_id="SportTV7.pt@SD">SPORTTV7 oficial-epg</channel>
+  <channel site="sporttv.pt" site_id="7133" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/5031847ef791d8fb3ebfaddd4e5e62c7e35ed180.svg" xmltv_id="SportTVPlus.pt@SD">SPORTTV+ oficial-epg</channel>
 
   <!-- vivoplay.com.br -->
   <channel site="vivoplay.com.br" site_id="lch1211" lang="pt" xmltv_id="Combate.br">Combate</channel>

@@ -30,6 +30,9 @@ npm run grab --- --sites=nostv.pt --output=../epg/epg-nos-pt.xml --days=7 --maxC
 # MEO epg
 npm run grab --- --sites=meo.pt --output=../epg/epg-meo-pt.xml --days=7 --maxConnections=20
 
+# SPORTTV epg
+npm run grab --- --sites=sporttv.pt --output=../epg/epg-sporttv.pt.xml --days=7 --maxConnections=20
+
 # ====================================================================================================
 # EPG INTERNACIONAIS
 # ====================================================================================================
