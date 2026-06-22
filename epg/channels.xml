@@ -153,6 +153,7 @@
   <channel site="nostv.pt" site_id="143" lang="en" xmltv_id="SonyMax.uk@SD">MAX</channel>
   <channel site="nostv.pt" site_id="510" lang="pt" xmltv_id="SPlus.pt@SD">S+ HD</channel>
   <channel site="nostv.pt" site_id="352" lang="pt" xmltv_id="SportingTV.pt@SD">Sporting TV HD</channel>
+<!--
   <channel site="nostv.pt" site_id="137" lang="pt" xmltv_id="SportTV1.pt@SD">SPORT TV1 HD</channel>
   <channel site="nostv.pt" site_id="187" lang="pt" xmltv_id="SportTV2.pt@SD">SPORT TV2 HD</channel>
   <channel site="nostv.pt" site_id="188" lang="pt" xmltv_id="SportTV3.pt@SD">SPORT TV3 HD</channel>
@@ -161,6 +162,7 @@
   <channel site="nostv.pt" site_id="610" lang="pt" xmltv_id="SportTV6.pt@SD">Sport TV 6 HD</channel>
   <channel site="nostv.pt" site_id="706" lang="pt" xmltv_id="SportTV7.pt@SD">Sport TV 7 HD</channel>
   <channel site="nostv.pt" site_id="417" lang="pt" xmltv_id="SportTVPlus.pt@SD">SPORT TV+ HD</channel>
+    -->
   <channel site="nostv.pt" site_id="174" lang="pt" xmltv_id="StarChannel.pt@SD">Star Channel HD</channel>
   <channel site="nostv.pt" site_id="113" lang="pt" xmltv_id="StarComedy.pt@SD">Star Comedy HD</channel>
   <channel site="nostv.pt" site_id="244" lang="pt" xmltv_id="StarCrime.pt@SD">Star Crime HD</channel>
