@@ -1,0 +1,30 @@
+name: Sync EPG to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  Sync-EPG:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout main branch
+        uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - name: Copy epg-main.xml.gz to publish folder
+        run: |
+          mkdir -p public/epg
+          cp epg/epg-main.xml.gz public/epg/
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: public
