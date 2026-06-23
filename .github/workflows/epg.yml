@@ -33,5 +33,5 @@ jobs:
         run: |
           git pull
           cd epg && git add .
-          git commit -m "Update EPG"
+          git commit -m "Update EPG" --allow-empty
           git push origin main
