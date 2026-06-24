@@ -3,12 +3,11 @@
 
 #!/bin/bash
 
-cd /home/runner/work/epg/epg/iptv-org-epg && npm install
-
 # Remove existing compressed files to avoid orphaned .gz from removed sources
 cd ../epg
 rm -f epg*.gz
-cd ../iptv-org-epg
+
+cd /home/runner/work/epg/epg/iptv-org-epg && npm install
 
 # Main epg
 npm run grab --- --channels=../epg/channels.xml --output=../epg/epg-main.xml --days=7 --maxConnections=20
