@@ -2,6 +2,6 @@ tmp/
 *.bak
 *.log
 *.tmp
+*.ps1
 node_modules/
 resources/
-utilities/*.ps1
