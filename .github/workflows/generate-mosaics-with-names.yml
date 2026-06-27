@@ -7,7 +7,7 @@ name: Generate Logo Mosaics with names
 #  schedule:
 #    - cron: "0 2 * * *"
 #      timezone: "Europe/Lisbon"
-#  workflow_dispatch:
+  workflow_dispatch:
   
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
