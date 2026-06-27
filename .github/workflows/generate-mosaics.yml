@@ -3,10 +3,7 @@
 
 name: Generate Logo Mosaics
 
-#on:
-#  schedule:
-#    - cron: "0 2 * * *"
-#      timezone: "Europe/Lisbon"
+on:
   workflow_dispatch:
 
 env:
