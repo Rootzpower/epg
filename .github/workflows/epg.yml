@@ -4,7 +4,8 @@
 name: Update EPG
 on:
   schedule:
-    - cron: "00 1 * * *"
+    - cron: "0 1 * * *"
+      timezone: "Europe/Lisbon"
   workflow_dispatch:
   
 jobs:
@@ -13,13 +14,13 @@ jobs:
     steps:
     
       - name: checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         
       - name: checkout iptv-org/epg repo
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
-         repository: iptv-org/epg
-         path: iptv-org-epg
+          repository: iptv-org/epg
+          path: iptv-org-epg
 
       - name: update EPG
         run: sh epg/epg.sh

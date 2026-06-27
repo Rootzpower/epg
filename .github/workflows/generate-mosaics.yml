@@ -3,10 +3,11 @@
 
 name: Generate Logo Mosaics
 
-on:
-  workflow_dispatch:
-  #schedule:
-  #  - cron: '0 4 * * *'
+#on:
+#  schedule:
+#    - cron: "0 2 * * *"
+#      timezone: "Europe/Lisbon"
+#  workflow_dispatch:
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -15,12 +16,12 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.4'
+          php-version: '8.5'
 
       - name: Run script
         run: php utilities/generate-logos-mosaics.php
