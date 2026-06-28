@@ -5,48 +5,11 @@
 -->
 <channels>
 
-  <!-- rtp.pt -->
-  <channel site="rtp.pt" site_id="lis#1" lang="pt" xmltv_id="RTP1.pt@HD">RTP1</channel>
-  <channel site="rtp.pt" site_id="lis#8" lang="pt" xmltv_id="RTP2.pt@HD">RTP2</channel>
-  <channel site="rtp.pt" site_id="lis#3" lang="pt" xmltv_id="RTPAcores.pt@HD">RTP Açores</channel>
-  <channel site="rtp.pt" site_id="lis#6" lang="pt" xmltv_id="RTPAfrica.pt@SD">RTP África</channel>
-  <channel site="rtp.pt" site_id="lis#4" lang="pt" xmltv_id="RTPMadeira.pt@HD">RTP Madeira</channel>
-  <channel site="rtp.pt" site_id="rja#5" lang="pt" xmltv_id="RTPmAmerica.pt@SD">RTP Mundo América</channel>
-  <channel site="rtp.pt" site_id="per#5" lang="pt" xmltv_id="RTPmAsia.pt@SD">RTP Mundo Ásia</channel>
-  <channel site="rtp.pt" site_id="lis#9" lang="pt" xmltv_id="RTPMemoria.pt@SD">RTP Memória</channel>
-  <channel site="rtp.pt" site_id="lis#5" lang="pt" xmltv_id="RTPMundo.pt@SD">RTP Mundo</channel>
-  <channel site="rtp.pt" site_id="lis#7" lang="pt" xmltv_id="RTPNoticias.pt@HD">RTP Noticias</channel>
+  <!-- MEO -->
+  <channel site="meo.pt" site_id="ALMALUS" lang="pt" xmltv_id="AlmaLusa.pt@SD">Alma Lusa</channel>
+  <channel site="meo.pt" site_id="FIGHTSP" lang="pt" xmltv_id="FightSports.us@SD">Fight Sports</channel>
 
-  <!-- opto.sic.pt -->
-  <channel site="opto.sic.pt" site_id="549519c3-31fa-42de-a621-15e981082fd9" lang="pt" xmltv_id="SICAltaDefinicao.pt@SD">SIC Alta Definição</channel>
-  <channel site="opto.sic.pt" site_id="d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca" lang="pt" xmltv_id="SICReplay.pt@SD">SIC Replay</channel>
-
-  <!-- tvi.iol.pt -->
-  <channel site="tvi.iol.pt" site_id="cnn" lang="pt" xmltv_id="CNNPortugal.pt@SD">CNN Portugal</channel>
-  <channel site="tvi.iol.pt" site_id="tvi" lang="pt" xmltv_id="TVI.pt@SD">TVI</channel>
-  <channel site="tvi.iol.pt" site_id="tviafrica" lang="pt" xmltv_id="TVIAfrica.pt@SD">TVI África</channel>
-  <channel site="tvi.iol.pt" site_id="tvificcao" lang="pt" xmltv_id="TVIFiccao.pt@SD">TVI Ficção</channel>
-  <channel site="tvi.iol.pt" site_id="tviinternacional" lang="pt" xmltv_id="TVIInternacional.pt@SD">TVI Internacional</channel>
-  <channel site="tvi.iol.pt" site_id="tvireality" lang="pt" xmltv_id="TVIReality.pt@SD">TVI Reality</channel>
-  <channel site="tvi.iol.pt" site_id="vmais" lang="pt" xmltv_id="VPlusTVI.pt@SD">V+ TVI</channel>
-
-  <!-- vodafone.pt -->
-  <channel site="vodafone.pt" site_id="2746" lang="pt" xmltv_id="BBCNews.uk@Europe">BBC World News</channel>
-  <channel site="vodafone.pt" site_id="3027" lang="pt" xmltv_id="CineMundo.pt@SD">CineMundo</channel>
-  <channel site="vodafone.pt" site_id="3885" lang="pt" xmltv_id="DAZN1.uk@Portugal">DAZN 1</channel>
-  <channel site="vodafone.pt" site_id="3886" lang="pt" xmltv_id="DAZN2.uk@Portugal">DAZN 2</channel>
-  <channel site="vodafone.pt" site_id="3887" lang="pt" xmltv_id="DAZN3.uk@Portugal">DAZN 3</channel>
-  <channel site="vodafone.pt" site_id="3888" lang="pt" xmltv_id="DAZN4.uk@Portugal">DAZN 4</channel>
-  <channel site="vodafone.pt" site_id="3889" lang="pt" xmltv_id="DAZN5.uk@Portugal">DAZN 5</channel>
-  <channel site="vodafone.pt" site_id="3890" lang="pt" xmltv_id="DAZN6.uk@Portugal">DAZN 6</channel>
-  <channel site="vodafone.pt" site_id="2934" lang="pt" xmltv_id="DocuBox.nl">DocuBox</channel>
-  <channel site="vodafone.pt" site_id="2720" lang="pt" xmltv_id="FightBox.nl">FightBox</channel>
-  <channel site="vodafone.pt" site_id="7075" lang="pt" xmltv_id="Gametoon.nl@SD">GameToon</channel>
-  <channel site="vodafone.pt" site_id="2933" lang="pt" xmltv_id="InsightTV.nl@SD">InSight TV</channel>
-  <channel site="vodafone.pt" site_id="2757" lang="pt" xmltv_id="PROTVInternational.ro@SD">Pro TV International</channel>
-  <channel site="vodafone.pt" site_id="2773" lang="pt" xmltv_id="RaiNews24.it@SD">Rai News</channel>
-
-  <!-- nostv.pt -->
+  <!-- NOS -->
   <channel site="nostv.pt" site_id="24" lang="en" xmltv_id="1Plus1International.ua@SD">1+1</channel>
   <channel site="nostv.pt" site_id="172" lang="pt" xmltv_id="24Horas.es@SD">TVE 24h</channel>
   <channel site="nostv.pt" site_id="243" lang="pt" xmltv_id="24Kitchen.us@Portugal">24Kitchen HD</channel>
@@ -192,11 +155,55 @@
   <channel site="nostv.pt" site_id="701" lang="en" xmltv_id="WSport.za@SD">W-Sport</channel>
   <channel site="nostv.pt" site_id="538" lang="pt" xmltv_id="ZapViva.ao@SD">ZAP Viva HD</channel>
   
-  <!-- meo.pt -->
-  <channel site="meo.pt" site_id="ALMALUS" lang="pt" xmltv_id="AlmaLusa.pt@SD">Alma Lusa</channel>
-  <channel site="meo.pt" site_id="FIGHTSP" lang="pt" xmltv_id="FightSports.us@SD">Fight Sports</channel>
+  <!-- RTP -->
+  <channel site="rtp.pt" site_id="lis#1" lang="pt" xmltv_id="RTP1.pt@HD">RTP1</channel>
+  <channel site="rtp.pt" site_id="lis#8" lang="pt" xmltv_id="RTP2.pt@HD">RTP2</channel>
+  <channel site="rtp.pt" site_id="lis#3" lang="pt" xmltv_id="RTPAcores.pt@HD">RTP Açores</channel>
+  <channel site="rtp.pt" site_id="lis#6" lang="pt" xmltv_id="RTPAfrica.pt@SD">RTP África</channel>
+  <channel site="rtp.pt" site_id="lis#4" lang="pt" xmltv_id="RTPMadeira.pt@HD">RTP Madeira</channel>
+  <channel site="rtp.pt" site_id="rja#5" lang="pt" xmltv_id="RTPmAmerica.pt@SD">RTP Mundo América</channel>
+  <channel site="rtp.pt" site_id="per#5" lang="pt" xmltv_id="RTPmAsia.pt@SD">RTP Mundo Ásia</channel>
+  <channel site="rtp.pt" site_id="lis#9" lang="pt" xmltv_id="RTPMemoria.pt@SD">RTP Memória</channel>
+  <channel site="rtp.pt" site_id="lis#5" lang="pt" xmltv_id="RTPMundo.pt@SD">RTP Mundo</channel>
+  <channel site="rtp.pt" site_id="lis#7" lang="pt" xmltv_id="RTPNoticias.pt@HD">RTP Noticias</channel>
 
-  <!-- vivoplay.com.br -->
+  <!-- SIC -->
+  <channel site="opto.sic.pt" site_id="549519c3-31fa-42de-a621-15e981082fd9" lang="pt" xmltv_id="SICAltaDefinicao.pt@SD">SIC Alta Definição</channel>
+  <channel site="opto.sic.pt" site_id="d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca" lang="pt" xmltv_id="SICReplay.pt@SD">SIC Replay</channel>
+
+  <!-- TVI -->
+  <channel site="tvi.iol.pt" site_id="cnn" lang="pt" xmltv_id="CNNPortugal.pt@SD">CNN Portugal</channel>
+  <channel site="tvi.iol.pt" site_id="tvi" lang="pt" xmltv_id="TVI.pt@SD">TVI</channel>
+  <channel site="tvi.iol.pt" site_id="tviafrica" lang="pt" xmltv_id="TVIAfrica.pt@SD">TVI África</channel>
+  <channel site="tvi.iol.pt" site_id="tvificcao" lang="pt" xmltv_id="TVIFiccao.pt@SD">TVI Ficção</channel>
+  <channel site="tvi.iol.pt" site_id="tviinternacional" lang="pt" xmltv_id="TVIInternacional.pt@SD">TVI Internacional</channel>
+  <channel site="tvi.iol.pt" site_id="tvireality" lang="pt" xmltv_id="TVIReality.pt@SD">TVI Reality</channel>
+  <channel site="tvi.iol.pt" site_id="vmais" lang="pt" xmltv_id="VPlusTVI.pt@SD">V+ TVI</channel>
+
+  <!-- VODAFONE -->
+  <channel site="vodafone.pt" site_id="2746" lang="pt" xmltv_id="BBCNews.uk@Europe">BBC World News</channel>
+  <channel site="vodafone.pt" site_id="3027" lang="pt" xmltv_id="CineMundo.pt@SD">CineMundo</channel>
+  <channel site="vodafone.pt" site_id="3885" lang="pt" xmltv_id="DAZN1.uk@Portugal">DAZN 1</channel>
+  <channel site="vodafone.pt" site_id="3886" lang="pt" xmltv_id="DAZN2.uk@Portugal">DAZN 2</channel>
+  <channel site="vodafone.pt" site_id="3887" lang="pt" xmltv_id="DAZN3.uk@Portugal">DAZN 3</channel>
+  <channel site="vodafone.pt" site_id="3888" lang="pt" xmltv_id="DAZN4.uk@Portugal">DAZN 4</channel>
+  <channel site="vodafone.pt" site_id="3889" lang="pt" xmltv_id="DAZN5.uk@Portugal">DAZN 5</channel>
+  <channel site="vodafone.pt" site_id="3890" lang="pt" xmltv_id="DAZN6.uk@Portugal">DAZN 6</channel>
+  <channel site="vodafone.pt" site_id="2934" lang="pt" xmltv_id="DocuBox.nl">DocuBox</channel>
+  <channel site="vodafone.pt" site_id="2720" lang="pt" xmltv_id="FightBox.nl">FightBox</channel>
+  <channel site="vodafone.pt" site_id="7075" lang="pt" xmltv_id="Gametoon.nl@SD">GameToon</channel>
+  <channel site="vodafone.pt" site_id="2933" lang="pt" xmltv_id="InsightTV.nl@SD">InSight TV</channel>
+  <channel site="vodafone.pt" site_id="2757" lang="pt" xmltv_id="PROTVInternational.ro@SD">Pro TV International</channel>
+  <channel site="vodafone.pt" site_id="2773" lang="pt" xmltv_id="RaiNews24.it@SD">Rai News</channel> 
+
+  <!-- NOW TV -->
+  <channel site="nowplayer.now.com" site_id="642" lang="en" xmltv_id="NBATV.us@SD">NBA TV</channel>
+  
+  <!-- ORANGETV -->
+  <channel site="orangetv.orange.es" site_id="1033" lang="es" xmltv_id="Cazavision.es@SD">Cazavisión</channel>
+  <channel site="orangetv.orange.es" site_id="11049" lang="es" xmltv_id="ElToroTV.es@SD">El Toro TV</channel>
+  
+  <!-- VIVO PLAY -->
   <channel site="vivoplay.com.br" site_id="lch1211" lang="pt" xmltv_id="Combate.br">Combate</channel>
   <channel site="vivoplay.com.br" site_id="lch213" lang="pt" xmltv_id="Globo News">Globo News</channel>
   <channel site="vivoplay.com.br" site_id="lch2172" lang="pt" xmltv_id="SICInternacional.pt">SIC Internacional</channel>
@@ -205,14 +212,7 @@
   <channel site="vivoplay.com.br" site_id="lch1210" lang="pt" xmltv_id="SporTV3.br">SporTV 3</channel>
   <channel site="vivoplay.com.br" site_id="lch1252" lang="pt" xmltv_id="TLC.br">TLC BRASIL</channel>
 
-  <!-- orangetv.orange.es -->
-  <channel site="orangetv.orange.es" site_id="1033" lang="es" xmltv_id="Cazavision.es@SD">Cazavisión</channel>
-  <channel site="orangetv.orange.es" site_id="11049" lang="es" xmltv_id="ElToroTV.es@SD">El Toro TV</channel>
-
-  <!-- watch.whaletvplus.com -->
+  <!-- WHALE TV+ -->
   <channel site="watch.whaletvplus.com" site_id="999420644834214634" lang="pt" xmltv_id="FIFAPlus.uk@Portuguese">FIFA+ (PT)</channel>
   
-  <!-- nowplayer.now.com -->
-  <channel site="nowplayer.now.com" site_id="642" lang="en" xmltv_id="NBATV.us@SD">NBA TV</channel>
-
 </channels>
