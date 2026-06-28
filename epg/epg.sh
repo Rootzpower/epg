@@ -9,7 +9,7 @@ cd /home/runner/work/epg/epg/iptv-org-epg && npm install
 npm run grab --- --channels=../epg/channels.xml --output=../epg/epg-main.xml --days=7 --maxConnections=20
 
 # ╔══════════════════════════════════════════════════════════╗
-# ║                  📺 EPG NACIONAIS 📺                    ║
+# ║                  📺 EPG NACIONAIS 📺🇵🇹                     ║
 # ╚══════════════════════════════════════════════════════════╝
 
 # MEO - https://www.meo.pt/tv/canais-programacao/guia-tv
