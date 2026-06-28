@@ -48,11 +48,11 @@ npm run grab --- --sites=watch.whaletvplus.com --output=../epg/epg-watch-whaletv
 
 #-------------------------------------------------------------
 
-# Compress epg xml files only for *.gz format
+# Compress epg xml files only for gz format
 cd ../epg
 gzip -k -f -9 epg*.xml
 
-# Remove orphan epg xml files
+# Remove orphan epg xml and xz files
 rm -f epg*.xml epg*.xml.xz
 
 exit 0
