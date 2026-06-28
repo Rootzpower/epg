@@ -4,6 +4,11 @@
   See: https://github.com/LITUATUI/M3UPT
 -->
 <channels>
+<!--
+# ╔══════════════════════════════════════════════════════════╗
+# ║                  📺 EPG NACIONAIS 📺                    ║
+# ╚══════════════════════════════════════════════════════════╝
+-->
 
   <!-- MEO -->
   <channel site="meo.pt" site_id="ALMALUS" lang="pt" xmltv_id="AlmaLusa.pt@SD">Alma Lusa</channel>
@@ -195,7 +200,11 @@
   <channel site="vodafone.pt" site_id="2933" lang="pt" xmltv_id="InsightTV.nl@SD">InSight TV</channel>
   <channel site="vodafone.pt" site_id="2757" lang="pt" xmltv_id="PROTVInternational.ro@SD">Pro TV International</channel>
   <channel site="vodafone.pt" site_id="2773" lang="pt" xmltv_id="RaiNews24.it@SD">Rai News</channel> 
-
+<!--
+# ╔══════════════════════════════════════════════════════════╗
+# ║                 🌍 EPG INTERNACIONAIS 🌍                ║
+# ╚══════════════════════════════════════════════════════════╝
+-->
   <!-- NOW TV -->
   <channel site="nowplayer.now.com" site_id="642" lang="en" xmltv_id="NBATV.us@SD">NBA TV</channel>
   
