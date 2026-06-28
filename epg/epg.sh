@@ -52,7 +52,7 @@ npm run grab --- --sites=watch.whaletvplus.com --output=../epg/epg-watch-whaletv
 cd ../epg
 gzip -k -f -9 epg*.xml
 
-# Remove epg xml files
+# Remove orphan epg xml files
 rm -f epg*.xml epg*.xml.xz
 
 exit 0
