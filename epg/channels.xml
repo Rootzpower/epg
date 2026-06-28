@@ -9,7 +9,6 @@
 # ║                  📺 EPG NACIONAIS 📺                    ║
 # ╚══════════════════════════════════════════════════════════╝
 -->
-
   <!-- MEO -->
   <channel site="meo.pt" site_id="ALMALUS" lang="pt" xmltv_id="AlmaLusa.pt@SD">Alma Lusa</channel>
   <channel site="meo.pt" site_id="FIGHTSP" lang="pt" xmltv_id="FightSports.us@SD">Fight Sports</channel>
