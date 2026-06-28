@@ -12,22 +12,22 @@ npm run grab --- --channels=../epg/channels.xml --output=../epg/epg-main.xml --d
 # ║                  📺 EPG NACIONAIS 📺                    ║
 # ╚══════════════════════════════════════════════════════════╝
 
-# MEO		https://www.meo.pt/tv/canais-programacao/guia-tv
+# MEO			https://www.meo.pt/tv/canais-programacao/guia-tv
 npm run grab --- --sites=meo.pt --output=../epg/epg-meo-pt.xml --days=7 --maxConnections=20
 
-# NOS - 	https://nostv.pt/guia/
+# NOS	 		https://nostv.pt/guia/
 npm run grab --- --sites=nostv.pt --output=../epg/epg-nos-pt.xml --days=7 --maxConnections=20
 
-# RTP		https://www.rtp.pt/tv/
+# RTP			https://www.rtp.pt/tv/
 npm run grab --- --sites=rtp.pt --output=../epg/epg-rtp-pt.xml --days=7 --maxConnections=20
 
-# SIC		https://opto.sic.pt/guia-tv
+# SIC			https://opto.sic.pt/guia-tv
 npm run grab --- --sites=opto.sic.pt --output=../epg/epg-sic-pt.xml --days=7 --maxConnections=20
 
-# TVI		https://tvi.iol.pt/guiatv
+# TVI			https://tvi.iol.pt/guiatv
 npm run grab --- --sites=tvi.iol.pt --output=../epg/epg-tvi-pt.xml --days=7 --maxConnections=20
 
-# VODAFONE	https://www.vodafone.pt/
+# VODAFONE		https://www.vodafone.pt/
 npm run grab --- --sites=vodafone.pt --output=../epg/epg-vodafone-pt.xml --days=7 --maxConnections=20
 
 # ╔══════════════════════════════════════════════════════════╗
