@@ -24,6 +24,9 @@ npm run grab --- --sites=rtp.pt --output=../epg/epg-rtp-pt.xml --days=7 --maxCon
 # SIC - https://opto.sic.pt/guia-tv
 npm run grab --- --sites=opto.sic.pt --output=../epg/epg-sic-pt.xml --days=7 --maxConnections=20
 
+# SPORTTV - https://www.sporttv.pt/guia
+npm run grab --- --sites=sporttv.pt --output=../epg/epg-sporttv-pt.xml --days=7 --maxConnections=20
+
 # TVI - https://tvi.iol.pt/guiatv
 npm run grab --- --sites=tvi.iol.pt --output=../epg/epg-tvi-pt.xml --days=7 --maxConnections=20
 
