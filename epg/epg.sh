@@ -9,7 +9,7 @@ cd /home/runner/work/epg/epg/iptv-org-epg && npm install
 npm run grab --- --channels=../epg/channels.xml --output=../epg/epg-main.xml --days=7 --maxConnections=20
 
 # ╔══════════════════════════════════════════════════════════╗
-# ║                  📺 EPG NACIONAIS 📺                    ║
+# ║                  📺 EPG - NACIONAIS 📺                  ║
 # ╚══════════════════════════════════════════════════════════╝
 
 # MEO - https://www.meo.pt/tv/canais-programacao/guia-tv
@@ -34,7 +34,7 @@ npm run grab --- --sites=tvi.iol.pt --output=../epg/epg-tvi-pt.xml --days=7 --ma
 npm run grab --- --sites=vodafone.pt --output=../epg/epg-vodafone-pt.xml --days=7 --maxConnections=20
 
 # ╔══════════════════════════════════════════════════════════╗
-# ║                 🌍 EPG INTERNACIONAIS 🌍                ║
+# ║              🌍 EPG - INTERNACIONAIS 🌍                 ║
 # ╚══════════════════════════════════════════════════════════╝
 
 # NOW TV - https://nowplayer.now.com/tvguide

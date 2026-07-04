@@ -49,3 +49,5 @@ jobs:
           publish_branch: gh-pages
           publish_dir: public
           force_orphan: true
+          user_name: "🤖 R2-D2"
+          user_email: "r2d2@rebel-alliance.com"
