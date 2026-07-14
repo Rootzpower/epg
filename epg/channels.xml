@@ -195,6 +195,8 @@
   <channel site="tvi.iol.pt" site_id="vmais" lang="pt" xmltv_id="VPlusTVI.pt@SD">V+ TVI</channel>
 
   <!-- VODAFONE -->
+  <channel site="vodafone.pt" site_id="2749" lang="pt" xmltv_id="24Horas.es@SD">24h</channel>
+  <channel site="vodafone.pt" site_id="3019" lang="pt" xmltv_id="ArirangTV.kr@SD">Arirang</channel>
   <channel site="vodafone.pt" site_id="2746" lang="pt" xmltv_id="BBCNews.uk@Europe">BBC World News</channel>
   <channel site="vodafone.pt" site_id="3027" lang="pt" xmltv_id="CineMundo.pt@SD">CineMundo</channel>
   <channel site="vodafone.pt" site_id="3885" lang="pt" xmltv_id="DAZN1.uk@Portugal">DAZN 1</channel>
@@ -205,10 +207,16 @@
   <channel site="vodafone.pt" site_id="3890" lang="pt" xmltv_id="DAZN6.uk@Portugal">DAZN 6</channel>
   <channel site="vodafone.pt" site_id="2934" lang="pt" xmltv_id="DocuBox.nl">DocuBox</channel>
   <channel site="vodafone.pt" site_id="2720" lang="pt" xmltv_id="FightBox.nl">FightBox</channel>
+  <channel site="vodafone.pt" site_id="5610" lang="pt" xmltv_id="FREEDOM.ua@SD">Freedom</channel>
   <channel site="vodafone.pt" site_id="7075" lang="pt" xmltv_id="Gametoon.nl@SD">GameToon</channel>
+  <channel site="vodafone.pt" site_id="8013" lang="pt" xmltv_id="GINXTV.uk@SD">GINX ESports TV</channel>
   <channel site="vodafone.pt" site_id="2933" lang="pt" xmltv_id="InsightTV.nl@SD">InSight TV</channel>
+  <channel site="vodafone.pt" site_id="2843" lang="pt" xmltv_id="LocalVisaoTV.pt@SD">Localvisão TV</channel>
+  <channel site="vodafone.pt" site_id="2766" lang="pt" xmltv_id="PhoenixCNEChannel.hk@SD">Phoenix</channel>
   <channel site="vodafone.pt" site_id="2757" lang="pt" xmltv_id="PROTVInternational.ro@SD">Pro TV International</channel>
-  <channel site="vodafone.pt" site_id="2773" lang="pt" xmltv_id="RaiNews24.it@SD">Rai News</channel> 
+  <channel site="vodafone.pt" site_id="2773" lang="pt" xmltv_id="RaiNews24.it@SD">Rai News</channel>
+  <channel site="vodafone.pt" site_id="2743" lang="pt" xmltv_id="StingrayCMusic.ca@SD">CMusicTV</channel>
+  
 <!--
 # ╔══════════════════════════════════════════════════════════╗
 # ║              🌍 EPG - INTERNACIONAIS 🌍                 ║
