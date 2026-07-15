@@ -1,10 +1,8 @@
 # Logos with names
 
-Logo dimensions: 256x256.
-
-Original logos, with some b&w and grayscale variations.
-
-*For optimal visibility of transparent logos, enable dark mode.*
+* Logo dimensions: 256x256.
+* Original logos, with some b&w and grayscale variations.
+* *For optimal visibility of transparent logos, enable dark mode.*
 
 | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="24h.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="24kitchen.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="24kitchen-bw.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="24kitchen-gray.png" width="120"></div> | <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;"><img src="abolatv.png" width="120"></div> |
 |:---:|:---:|:---:|:---:|:---:|
