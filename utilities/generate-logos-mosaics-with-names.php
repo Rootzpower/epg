@@ -86,9 +86,9 @@ function createMDFiles(array $logos, string $source, array $settings): void
         echo "Generating $outputFile\n";
 
         $outputContent  = "# Logos with names\n\n";
-		$outputContent .= "Logo dimensions: 256x256.\n\n";
-		$outputContent .= "Original logos, with some b&w and grayscale variations.\n\n";
-        $outputContent .= "*For optimal visibility of transparent logos, enable dark mode.*\n\n";
+		$outputContent .= "* Logo dimensions: 256x256.\n";
+		$outputContent .= "* Original logos, with some b&w and grayscale variations.\n";
+        $outputContent .= "* *For optimal visibility of transparent logos, enable dark mode.*\n\n";
 
         $table = "";
         $matrix = [];
