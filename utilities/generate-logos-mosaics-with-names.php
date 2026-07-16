@@ -28,7 +28,7 @@ $settings = [
         __DIR__ . '/../logos',
     ],
     'outputFilename' => '0_logos-mosaic-with-names.md',
-    'cols' => 6,
+    'cols' => 5,
 ];
 
 /**
