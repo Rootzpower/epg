@@ -28,7 +28,7 @@ $settings = [
         __DIR__ . '/../logos',
     ],
     'outputFilename' => '0_logos-mosaic-with-names.md',
-    'cols' => 4,
+    'cols' => 6,
 ];
 
 /**
@@ -108,7 +108,7 @@ function createMDFiles(array $logos, string $source, array $settings): void
                 $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">';
 
                 if ($logo !== null) {
-                    $table .= '<img src="' . $logo . '.png" width="100">';
+                    $table .= '<img src="' . $logo . '.png" width="120">';
                 } else {
                     $table .= '&nbsp;';
                 }
@@ -138,7 +138,7 @@ function createMDFiles(array $logos, string $source, array $settings): void
 
                 if ($logo !== null) {
                     $displayName = strtoupper(str_replace('-', ' ', $logo));
-                    if (mb_strlen($displayName) > 20) {
+                    if (mb_strlen($displayName) > 25) {
                         $displayName = mb_substr($displayName, 0, 24) . '…';
                     }
                     $table .= $displayName;
