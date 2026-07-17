@@ -137,7 +137,7 @@ function createMDFiles(array $logos, string $source, array $settings): void
                 $table .= '| <div align="center" style="height:22px; line-height:22px; font-size:12px; overflow:hidden; white-space:nowrap;">';
 
                 if ($logo !== null) {
-                    $table .= $logo;
+                    $table .= strtoupper(str_replace('-', ' ', $logo));
                 } else {
                     $table .= '&nbsp;';
                 }
