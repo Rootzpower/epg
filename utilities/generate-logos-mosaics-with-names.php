@@ -138,7 +138,7 @@ function createMDFiles(array $logos, string $source, array $settings): void
 
                 if ($logo !== null) {
                     $displayName = strtoupper(str_replace('-', ' ', $logo));
-                    if (mb_strlen($displayName) > 25) {
+                    if (mb_strlen($displayName) > 20) {
                         $displayName = mb_substr($displayName, 0, 24) . '…';
                     }
                     $table .= $displayName;
