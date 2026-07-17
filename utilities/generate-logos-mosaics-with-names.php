@@ -88,7 +88,6 @@ function createMDFiles(array $logos, string $source, array $settings): void
         $outputContent  = "# Logos with names\n\n";
         $outputContent .= "* *For optimal visibility of transparent logos, enable dark mode.*\n\n";
 
-        $table = "";
         $matrix = [];
         $i = 0;
 
@@ -99,13 +98,18 @@ function createMDFiles(array $logos, string $source, array $settings): void
 
         $rows = count($matrix);
 
+        // Header separator (once, before the first data row)
+        $separator = str_repeat("|:---:", $settings['cols']) . "|\n";
+
+        $table = "";
+
         for ($j = 0; $j < $rows; $j++) {
 
             // Image row
             for ($i = 0; $i < $settings['cols']; $i++) {
                 $logo = $matrix[$j][$i] ?? null;
 
-                $table .= '| <div align="center" style="background:#756f6f; padding:10px; border-radius:8px;">';
+                $table .= '| <div align="center">';
 
                 if ($logo !== null) {
                     $table .= '<img src="' . $logo . '.png" width="120">';
@@ -120,28 +124,19 @@ function createMDFiles(array $logos, string $source, array $settings): void
                 }
             }
 
-            // Header row
+            // Header separator after first image row
             if ($j === 0) {
-                for ($i = 0; $i < $settings['cols']; $i++) {
-                    $table .= "|:---:";
-                    if ($i === $settings['cols'] - 1) {
-                        $table .= "|\n";
-                    }
-                }
+                $table .= $separator;
             }
 
-            // Name row — altura fixa + fonte pequena + overflow controlado
+            // Name row
             for ($i = 0; $i < $settings['cols']; $i++) {
                 $logo = $matrix[$j][$i] ?? null;
 
-                $table .= '| <div align="center" style="height:22px; line-height:22px; font-size:12px; overflow:hidden; white-space:nowrap;">';
+                $table .= '| <div align="center">';
 
                 if ($logo !== null) {
-                    $displayName = strtoupper(str_replace('-', ' ', $logo));
-                    if (mb_strlen($displayName) > 25) {
-                        $displayName = mb_substr($displayName, 0, 24) . '…';
-                    }
-                    $table .= $displayName;
+                    $table .= strtoupper(str_replace('-', ' ', $logo));
                 } else {
                     $table .= '&nbsp;';
                 }
