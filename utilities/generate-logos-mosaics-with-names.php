@@ -137,7 +137,11 @@ function createMDFiles(array $logos, string $source, array $settings): void
                 $table .= '| <div align="center" style="height:22px; line-height:22px; font-size:12px; overflow:hidden; white-space:nowrap;">';
 
                 if ($logo !== null) {
-                    $table .= strtoupper(str_replace('-', ' ', $logo));
+                    $displayName = strtoupper(str_replace('-', ' ', $logo));
+                    if (mb_strlen($displayName) > 25) {
+                        $displayName = mb_substr($displayName, 0, 24) . '…';
+                    }
+                    $table .= $displayName;
                 } else {
                     $table .= '&nbsp;';
                 }
