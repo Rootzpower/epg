@@ -43,6 +43,9 @@ npm run grab --- --sites=nowplayer.now.com  --lang=en --output=../epg/epg-nowpla
 # ORANGETV - https://orangetv.orange.es/epg
 npm run grab --- --sites=orangetv.orange.es --output=../epg/epg-orangetv-orange-es.xml --days=7 --maxConnections=20
 
+# RAI - https://www.raiplay.it/guidatv
+npm run grab --- --sites=raiplay.it --output=../epg/epg-raiplay.it.xml --days=7 --maxConnections=20
+
 # VIVO PLAY - https://www.vivoplay.com.br/tv-guide/epg
 npm run grab --- --sites=vivoplay.com.br --output=../epg/epg-vivoplay-br.xml --days=7 --maxConnections=20
 
