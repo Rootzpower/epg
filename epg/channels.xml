@@ -57,6 +57,7 @@
   <channel site="meo.pt" site_id="LOUD" lang="pt" xmltv_id="StingrayLoud.ca@SD">Stingray Loud</channel>
   <channel site="meo.pt" site_id="RETRO" lang="pt" xmltv_id="StingrayRetro.ca@SD">Stingray Retro</channel>
   <channel site="meo.pt" site_id="TAGES24" lang="pt" xmltv_id="tagesschau24.de@SD">Tagesschau24</channel>
+  <channel site="meo.pt" site_id="MAANAIM" lang="pt" xmltv_id="TVMaanaim.br@SD">TV Maanaim</channel>
   <channel site="meo.pt" site_id="TELESUR" lang="pt" xmltv_id="Telesur.ve@SD">Telesur HD</channel>
   <channel site="meo.pt" site_id="TVA" lang="pt" xmltv_id="TVA.cv@SD">Televisão África</channel>
   <channel site="meo.pt" site_id="TRAXP" lang="pt" xmltv_id="Travelxp.in@SD">Travelxp HD</channel>
@@ -304,6 +305,7 @@
   <channel site="raiplay.it" site_id="raiplay-3" lang="it" xmltv_id="">RAIPLAY 3</channel>
   
   <!-- VIVO PLAY -->
+  <channel site="vivoplay.com.br" site_id="lch2795" lang="pt" xmltv_id="Bandnews.br">Bandnews</channel>
   <channel site="vivoplay.com.br" site_id="lch1211" lang="pt" xmltv_id="Combate.br">Combate</channel>
   <channel site="vivoplay.com.br" site_id="lch213" lang="pt" xmltv_id="Globo News">Globo News</channel>
   <channel site="vivoplay.com.br" site_id="lch2172" lang="pt" xmltv_id="SICInternacional.pt">SIC Internacional</channel>
