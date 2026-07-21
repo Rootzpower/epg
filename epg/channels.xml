@@ -108,7 +108,7 @@
   <channel site="nostv.pt" site_id="425" lang="pt" xmltv_id="CMTV.pt@SD">CMTV</channel>
   <channel site="nostv.pt" site_id="52" lang="en" xmltv_id="CNBCEurope.uk@SD">CNBC</channel>
   <channel site="nostv.pt" site_id="26" lang="en" xmltv_id="CNNInternational.us@MENA">CNN</channel>
-  <channel site="nostv.pt" site_id="557" lang="pt" xmltv_id="CNNPortugal.pt@SD">CNN Portugal HD</channel>
+  <channel site="nostv.pt" site_id="557" lang="pt" xmltv_id="CNNPortugal.pt@SD">CNN Portugal</channel>
   <channel site="nostv.pt" site_id="721" lang="pt" xmltv_id="ContaLa.pt@HD">Conta Lá</channel>
   <channel site="nostv.pt" site_id="121" lang="pt" xmltv_id="CubavisionInternacional.cu@SD">Cubavisión Internacional</channel>
   <channel site="nostv.pt" site_id="718" lang="pt" xmltv_id="DaystarTV.us@SD">Daystar</channel>
@@ -209,8 +209,8 @@
   <channel site="nostv.pt" site_id="223" lang="pt" xmltv_id="TVCineEmotion.pt@SD">TVCine EMOTION</channel>
   <channel site="nostv.pt" site_id="141" lang="pt" xmltv_id="TVCineTop.pt@SD">TVCine TOP</channel>
   <channel site="nostv.pt" site_id="48" lang="es" xmltv_id="TVEInternacionalEuropeAsia.es@SD">TVEi</channel>
-  <channel site="nostv.pt" site_id="555" lang="pt" xmltv_id="TVI.pt@SD">TVI HD</channel>
-  <channel site="nostv.pt" site_id="567" lang="pt" xmltv_id="TVIReality.pt@SD">TVI Reality HD</channel>
+  <channel site="nostv.pt" site_id="555" lang="pt" xmltv_id="TVI.pt@SD">TVI</channel>
+  <channel site="nostv.pt" site_id="567" lang="pt" xmltv_id="TVIReality.pt@SD">TVI Reality</channel>
   <channel site="nostv.pt" site_id="123" lang="pt" xmltv_id="TVRInternational.ro@SD">TVR Internacional</channel>
   <channel site="nostv.pt" site_id="708" lang="pt" xmltv_id="TVZimboInternacional.ao@HD">TV Zimbo</channel>
   <channel site="nostv.pt" site_id="689" lang="pt" xmltv_id="UnifeTV.pt@SD">Unifé TV</channel>
