@@ -20,6 +20,7 @@
   <channel site="meo.pt" site_id="BOMSOM" lang="pt" xmltv_id="BomSomTV.pt@SD">BomSom TV</channel>
   <channel site="meo.pt" site_id="CGTNHD" lang="pt" xmltv_id="CGTN.cn@SD">CGTN</channel>
   <channel site="meo.pt" site_id="CGTNDHD" lang="pt" xmltv_id="CGTNDocumentary.cn@SD">CGTN Documentary</channel>
+  <channel site="meo.pt" site_id="UME" lang="pt" xmltv_id="CanalUmEuropa.pt@SD">UM Europa</channel>
   <channel site="meo.pt" site_id="1RUSS" lang="pt" xmltv_id="ChannelOne.ru@SD">Channel 1 Russia</channel>
   <channel site="meo.pt" site_id="CONECTV" lang="pt" xmltv_id="ConecTVAlgarve.pt@SD">Conectv</channel>
   <channel site="meo.pt" site_id="ARD" lang="pt" xmltv_id="DasErste.de@SD">ARD</channel>
@@ -44,6 +45,7 @@
   <channel site="meo.pt" site_id="M6" lang="pt" xmltv_id="M6International.fr@SD">M6</channel>
   <channel site="meo.pt" site_id="NOVOT" lang="pt" xmltv_id="NovoTempoPortugal.pt@SD">NOVO TEMPO</channel>
   <channel site="meo.pt" site_id="OPTO" lang="pt" xmltv_id="OPTO.pt@SD">OPTO</channel>
+  <channel site="meo.pt" site_id="STARCIN" lang="pt" xmltv_id="StarCinema.ua@SD">Star Cinema</channel>
   <channel site="meo.pt" site_id="CLASSIC" lang="pt" xmltv_id="StingrayClassica.ca@SD">Stingray Classica</channel>
   <channel site="meo.pt" site_id="DJAZZ" lang="pt" xmltv_id="StingrayDJAZZ.ca@SD">Stingray Djazz</channel>
   <channel site="meo.pt" site_id="ICOHD" lang="pt" xmltv_id="StingrayiConcerts.ca@SD">Stingray iConcerts</channel>
@@ -92,6 +94,7 @@
   <channel site="nostv.pt" site_id="713" lang="pt" xmltv_id="Cartoonito.pt@SD">Cartoonito</channel>
   <channel site="nostv.pt" site_id="252" lang="pt" xmltv_id="CartoonNetworkWesternEurope.uk@Portugal">Cartoon Network</channel>
   <channel site="nostv.pt" site_id="572" lang="pt" xmltv_id="CasaeCozinha.pt@SD">Casa e Cozinha</channel>
+  <channel site="nostv.pt" site_id="425" lang="pt" xmltv_id="CMTV.pt@SD">CMTV</channel>
   <channel site="nostv.pt" site_id="316" lang="en" xmltv_id="CCTV4Europe.cn@SD">CCTV 4</channel>
   <channel site="nostv.pt" site_id="52" lang="en" xmltv_id="CNBCEurope.uk@SD">CNBC</channel>
   <channel site="nostv.pt" site_id="26" lang="en" xmltv_id="CNNInternational.us@MENA">CNN</channel>
