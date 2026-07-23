@@ -279,7 +279,7 @@
   <!-- VIVO PLAY -->
   <channel site="vivoplay.com.br" site_id="lch2795" lang="pt" xmltv_id="Bandnews.br">Bandnews</channel>
   <channel site="vivoplay.com.br" site_id="lch1211" lang="pt" xmltv_id="Combate.br">Combate</channel>
-  <channel site="vivoplay.com.br" site_id="lch213" lang="pt" xmltv_id="Globo News">Globo News</channel>
+  <channel site="vivoplay.com.br" site_id="lch213" lang="pt" xmltv_id="GloboNews.br">Globo News</channel>
   <channel site="vivoplay.com.br" site_id="lch2172" lang="pt" xmltv_id="SICInternacional.pt">SIC Internacional</channel>
   <channel site="vivoplay.com.br" site_id="lch216" lang="pt" xmltv_id="SporTV.br">SporTV</channel>
   <channel site="vivoplay.com.br" site_id="lch217" lang="pt" xmltv_id="SporTV2.br">SporTV 2</channel>
