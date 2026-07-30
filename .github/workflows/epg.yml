@@ -19,7 +19,7 @@ jobs:
       - name: checkout iptv-org/epg repo
         uses: actions/checkout@v7
         with:
-          repository: Rootzpower/iptv-org
+          repository: iptv-org/epg
           path: iptv-org-epg
 
       - name: update EPG
