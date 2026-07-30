@@ -160,7 +160,7 @@
   <channel site="nostv.pt" site_id="422" lang="pt" xmltv_id="SICRadical.pt@SD">SIC Radical</channel>
   <channel site="nostv.pt" site_id="39" lang="en" xmltv_id="SkyNewsAustralia.au@SD">Sky News</channel>
   <channel site="nostv.pt" site_id="144" lang="en" xmltv_id="SonyEntertainmentTelevisionAsia.in@SD">SET Asia</channel>
-  <channel site="nostv.pt" site_id="143" lang="en" xmltv_id="SonyMax.uk@SD">MAX</channel>
+  <channel site="nostv.pt" site_id="143" lang="en" xmltv_id="SonyMax.uk@SD">SET MAX</channel>
   <channel site="nostv.pt" site_id="510" lang="pt" xmltv_id="SPlus.pt@SD">S+</channel>
   <channel site="nostv.pt" site_id="352" lang="pt" xmltv_id="SportingTV.pt@SD">Sporting TV</channel>
   <channel site="nostv.pt" site_id="174" lang="pt" xmltv_id="StarChannel.pt@SD">Star Channel</channel>
@@ -211,14 +211,14 @@
   <channel site="opto.sic.pt" site_id="d47400e0-19d9-4f71-94f4-2b4cfdc1a2ca" lang="pt" xmltv_id="SICReplay.pt@SD">SIC Replay</channel>
   
   <!-- SPORTTV -->
-  <channel site="sporttv.pt" site_id="727" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/7b1d37ebaabd616607f87e73b6b28461c4dc28a0.svg" xmltv_id="SportTV1.pt@SD">SPORTTV1 (OFICIAL)</channel>
-  <channel site="sporttv.pt" site_id="728" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/2adbed9d1e4d832b81c9b39c47d4d558ec5ecc5f.svg" xmltv_id="SportTV2.pt@SD">SPORTTV2 (OFICIAL)</channel>
-  <channel site="sporttv.pt" site_id="729" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/04cd76176390f40940a06c24f372c4780850fc44.svg" xmltv_id="SportTV3.pt@SD">SPORTTV3 (OFICIAL)</channel>
-  <channel site="sporttv.pt" site_id="5406" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/7f55db09622018d2e76770eb032adfd2c2178a22.svg" xmltv_id="SportTV4.pt@SD">SPORTTV4 (OFICIAL)</channel>
-  <channel site="sporttv.pt" site_id="5422" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/97cc61803f3ac434522800376e34332117fdd19f.svg" xmltv_id="SportTV5.pt@SD">SPORTTV5 (OFICIAL)</channel>
-  <channel site="sporttv.pt" site_id="7577" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/99242f707846ecc2d8222f3f3b03bfe3b17a169f.svg" xmltv_id="SportTV6.pt@SD">SPORTTV6 (OFICIAL)</channel>
-  <channel site="sporttv.pt" site_id="7600" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/88c0c128f1a26b73c1452ff66e19e88f2db549c6.svg" xmltv_id="SportTV7.pt@SD">SPORTTV7 (OFICIAL)</channel>
-  <channel site="sporttv.pt" site_id="7133" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/5031847ef791d8fb3ebfaddd4e5e62c7e35ed180.svg" xmltv_id="SportTVPlus.pt@SD">SPORTTV+ (OFICIAL)</channel>
+  <channel site="sporttv.pt" site_id="727" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/7b1d37ebaabd616607f87e73b6b28461c4dc28a0.svg" xmltv_id="SportTV1.pt@SD">SPORT.TV1</channel>
+  <channel site="sporttv.pt" site_id="728" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/2adbed9d1e4d832b81c9b39c47d4d558ec5ecc5f.svg" xmltv_id="SportTV2.pt@SD">SPORT.TV2</channel>
+  <channel site="sporttv.pt" site_id="729" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/04cd76176390f40940a06c24f372c4780850fc44.svg" xmltv_id="SportTV3.pt@SD">SPORT.TV3</channel>
+  <channel site="sporttv.pt" site_id="5406" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/7f55db09622018d2e76770eb032adfd2c2178a22.svg" xmltv_id="SportTV4.pt@SD">SPORT.TV4</channel>
+  <channel site="sporttv.pt" site_id="5422" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/97cc61803f3ac434522800376e34332117fdd19f.svg" xmltv_id="SportTV5.pt@SD">SPORT.TV5</channel>
+  <channel site="sporttv.pt" site_id="7577" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/99242f707846ecc2d8222f3f3b03bfe3b17a169f.svg" xmltv_id="SportTV6.pt@SD">SPORT.TV6</channel>
+  <channel site="sporttv.pt" site_id="7600" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/88c0c128f1a26b73c1452ff66e19e88f2db549c6.svg" xmltv_id="SportTV7.pt@SD">SPORT.TV7</channel>
+  <channel site="sporttv.pt" site_id="7133" lang="pt" logo="https://www.sporttv.pt/cms_media/default/0001/13/5031847ef791d8fb3ebfaddd4e5e62c7e35ed180.svg" xmltv_id="SportTVPlus.pt@SD">SPORT.TV+</channel>
   
   <!-- TVI -->
   <channel site="tvi.iol.pt" site_id="cnn" lang="pt" xmltv_id="CNNPortugal.pt@SD">CNN Portugal</channel>
@@ -233,12 +233,11 @@
   <channel site="vodafone.pt" site_id="3019" lang="pt" xmltv_id="ArirangTV.kr@SD">Arirang</channel>
   <channel site="vodafone.pt" site_id="2746" lang="pt" xmltv_id="BBCNews.uk@Europe">BBC World News</channel>
   <channel site="vodafone.pt" site_id="3027" lang="pt" xmltv_id="CineMundo.pt@SD">CineMundo</channel>
-  <channel site="vodafone.pt" site_id="3885" lang="pt" xmltv_id="DAZN1.uk@Portugal">DAZN 1</channel>
-  <channel site="vodafone.pt" site_id="3886" lang="pt" xmltv_id="DAZN2.uk@Portugal">DAZN 2</channel>
-  <channel site="vodafone.pt" site_id="3887" lang="pt" xmltv_id="DAZN3.uk@Portugal">DAZN 3</channel>
-  <channel site="vodafone.pt" site_id="3888" lang="pt" xmltv_id="DAZN4.uk@Portugal">DAZN 4</channel>
-  <channel site="vodafone.pt" site_id="3889" lang="pt" xmltv_id="DAZN5.uk@Portugal">DAZN 5</channel>
-  <channel site="vodafone.pt" site_id="3890" lang="pt" xmltv_id="DAZN6.uk@Portugal">DAZN 6</channel>
+  <channel site="vodafone.pt" site_id="8829" lang="pt" xmltv_id="DAZN1.pt@HD">DAZN 1</channel>
+  <channel site="vodafone.pt" site_id="8830" lang="pt" xmltv_id="DAZN2.pt@HD">DAZN 2</channel>
+  <channel site="vodafone.pt" site_id="8831" lang="pt" xmltv_id="DAZN3.pt@HD">DAZN 3</channel>
+  <channel site="vodafone.pt" site_id="8832" lang="pt" xmltv_id="DAZN4.pt@HD">DAZN 4</channel>
+  <channel site="vodafone.pt" site_id="8833" lang="pt" xmltv_id="DAZN5.pt@HD">DAZN 5</channel>
   <channel site="vodafone.pt" site_id="2934" lang="pt" xmltv_id="DocuBox.nl">DocuBox</channel>
   <channel site="vodafone.pt" site_id="2720" lang="pt" xmltv_id="FightBox.nl">FightBox</channel>
   <channel site="vodafone.pt" site_id="5610" lang="pt" xmltv_id="FREEDOM.ua@SD">Freedom</channel>
@@ -247,7 +246,7 @@
   <channel site="vodafone.pt" site_id="2933" lang="pt" xmltv_id="InsightTV.nl@SD">InSight TV</channel>
   <channel site="vodafone.pt" site_id="2766" lang="pt" xmltv_id="PhoenixCNEChannel.hk@SD">Phoenix</channel>
   <channel site="vodafone.pt" site_id="2757" lang="pt" xmltv_id="PROTVInternational.ro@SD">Pro TV International</channel>
-  <channel site="vodafone.pt" site_id="2743" lang="pt" xmltv_id="StingrayCMusic.ca@SD">CMusicTV</channel>
+  <channel site="vodafone.pt" site_id="2743" lang="pt" xmltv_id="StingrayCMusic.ca@SD">Stingray CMusic</channel>
   
 <!--
 # ╔══════════════════════════════════════════════════════════╗
