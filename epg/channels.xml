@@ -265,7 +265,7 @@
   <channel site="raiplay.it" site_id="rai-2" lang="it" xmltv_id="Rai2.it@SD">RAI 2</channel>
   <channel site="raiplay.it" site_id="rai-3" lang="it" xmltv_id="Rai3.it@HD">RAI 3</channel>
   <channel site="raiplay.it" site_id="rai-news-24" lang="it" xmltv_id="RaiNews24.it@SD">RAI NEWS 24</channel>
-  <channel site="raiplay.it" site_id="rai-scuola" lang="it" xmltv_id="RaiScuola.it@SD">RAI SCUOLA</channel>
+  <channel site="raiplay.it" site_id="italiana" lang="it" xmltv_id="Italiana.it@SD">ITALIANA</channel>
   <channel site="raiplay.it" site_id="rai-storia" lang="it" xmltv_id="RaiStoria.it@SD">RAI STORIA</channel>
   
   <!-- VIVO PLAY -->
